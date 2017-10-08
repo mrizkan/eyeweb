@@ -15,9 +15,10 @@
         <div class="tp-banner-container">
             <div class="tp-banner" >
                 <ul>	<!-- SLIDE  -->
+                                                <?php foreach ($sliders as $slider): ?>
                     <li data-transition="3dcurtain-horizontal" data-slotamount="7" data-masterspeed="500" >
                         <!-- MAIN IMAGE -->
-                        <img src="<?= base_url('media/images/') ?>banner01.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="<?=UP.$slider->Image ?>"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                         <!-- LAYERS  -->
 
                         <!-- LAYER NR. 1 -->
@@ -28,7 +29,7 @@
                              data-easing="Back.easeOut"
                              data-endspeed="500"
                              data-endeasing="Power4.easeIn"
-                             data-captionhidden="on" style="z-index: 4; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)">Comprehensive Eye Care  </div>
+                             data-captionhidden="on" style="z-index: 4; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)"><?=$slider->SliderTitle ?></div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption miami_content_light customin ltl"
@@ -37,7 +38,7 @@
                              data-speed="1000" data-start="1500"
                              data-easing="Back.easeInOut"
                              data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14;">LASIK &amp; PRK, Refractive Surgery, Eye Exams.</div>
+                             data-endeasing="Back.easeIn" style="z-index: 14;"><?=$slider->ShortDescription ?></div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme start"
@@ -48,108 +49,12 @@
                              data-endspeed="400"
                              data-endeasing="Back.easeIn" style="z-index: 14;"><a class="btn btn-type1" href="Contact-Us">Get a Free Consultation</a>                            </div>
                     </li>
-                    <!-- SLIDE  -->
-                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
-                        <!-- MAIN IMAGE -->
-                        <img src="<?= base_url('media/images/') ?>banner02.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
+                                <?php endforeach; ?>
 
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption large_bold_white skewfromrightshort customout"
-                             data-x="230" data-y="200"
-                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                             data-speed="500" data-start="1200"
-                             data-easing="Back.easeOut"
-                             data-endspeed="500"
-                             data-endeasing="Power4.easeIn"
-                             data-captionhidden="on" style="z-index: 4; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Children's Eye Care   </div>
 
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption miami_content_light customin ltl"
-                             data-x="295" data-y="275"
-                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                             data-speed="1000" data-start="1500"
-                             data-easing="Back.easeInOut"
-                             data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14;">Specialists in Pediatric &amp; Adult Eye Care Services                          </div>
 
-                        <!-- LAYER NR. 3 -->
-                        <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme start"
-                             data-x="470" data-y="345"
-                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                             data-speed="1000" data-start="2000"
-                             data-easing="Back.easeInOut"
-                             data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14;"><a class="btn btn-type1" href="Contact-Us">Request an Appointment</a>                            </div>
-                    </li>
 
-                    <!-- SLIDE  -->
-                    <li data-transition="curtain-1" data-slotamount="7" data-masterspeed="600" >
-                        <!-- MAIN IMAGE -->
-                        <img src="<?= base_url('media/images/') ?>banner03.jpg" style='background-color:#b2c4cc' alt=" "  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption large_bold_white skewfromrightshort customout"
-                             data-x="180" data-y="200"
-                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                             data-speed="500" data-start="1200"
-                             data-easing="Back.easeOut"
-                             data-endspeed="500"
-                             data-endeasing="Power4.easeIn"
-                             data-captionhidden="on" style="z-index: 4;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Laser Vision Corrections  </div>
 
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption miami_content_light customin ltl"
-                             data-x="340" data-y="275"
-                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                             data-speed="1000" data-start="1500"
-                             data-easing="Back.easeInOut"
-                             data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14;">Get your Life free from Glasses &amp; Contact lenses.                                      </div>
-
-                        <!-- LAYER NR. 3 -->
-                        <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme start"
-                             data-x="470" data-y="345"
-                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                             data-speed="1000" data-start="2000"
-                             data-easing="Back.easeInOut"
-                             data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14"><a class="btn btn-type1" href="Products">See Our Products</a>                            </div>
-                    </li>
-
-                    <!-- SLIDE  -->
-                    <li data-transition="flyin" data-slotamount="7" data-masterspeed="800" >
-                        <!-- MAIN IMAGE -->
-                        <img src="<?= base_url('media/images/') ?>banner04.jpg" style='background-color:#b2c4cc' alt=" "  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption large_bold_white skewfromrightshort customout"
-                             data-x="180" data-y="200"
-                             data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                             data-speed="500" data-start="1200"
-                             data-easing="Back.easeOut"
-                             data-endspeed="500"
-                             data-endeasing="Power4.easeIn"
-                             data-captionhidden="on" style="z-index: 4;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">Get a Free Consultation?</div>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption miami_content_light customin ltl"
-                             data-x="320" data-y="275"
-                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                             data-speed="1000" data-start="1500"
-                             data-easing="Back.easeInOut"
-                             data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14;">Visit any of our locations for Free Consultation.      </div>
-
-                        <!-- LAYER NR. 3 -->
-                        <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme start"
-                             data-x="475" data-y="345"
-                             data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
-                             data-speed="1000" data-start="2000"
-                             data-easing="Back.easeInOut"
-                             data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14"><a class="btn btn-type1" href="Contact-Us">View our Locations</a>                            </div>
-                    </li>
                 </ul>
                 <div class="tp-bannertimer"></div>
             </div>

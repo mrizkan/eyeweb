@@ -48,8 +48,8 @@
                                                 <?= form_error('form[SliderTitle]') ?>
                                             </div>
 
-                                            <div class="form-group" style="display:none;">
-                                                <label for="description">Short Description</label>
+                                            <div class="form-group">
+                                                <label for="description">Slider Text</label>
                                                 <textarea rows="5" name="form[ShortDescription]"
                                                           class="form-control"><?= set_value('form[ShortDescription]', $obj->ShortDescription) ?></textarea>
                                             </div>
@@ -63,7 +63,7 @@
                                         <div class="col-lg-6">
                                             <div class="form-group">
                                                 <label> Slider Default Image
-                                                    <small> image size ( 870px * 420px )</small>
+                                                    <small> image size ( 1900px * 950px )</small>
                                                 </label>
                                             </div>
                                             <div class="fileinput-button btn btn-success sepH_b">
