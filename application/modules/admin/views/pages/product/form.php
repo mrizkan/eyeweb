@@ -43,7 +43,7 @@
                                         <div class="col-lg-6" >
 
 
-                                            <div class="form-group">
+                                            <div class="form-group" style="display: none">
                                                 <label for="name">Brand Name</label>
 
 
@@ -62,7 +62,7 @@
                                         </div>
 
 
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6" style="display: none">
                                             <div class="form-group">
                                                 <label for="name">Category Name</label>
                                                 <select class="form-control" name="form[CategoryId]" id="category" >
@@ -76,7 +76,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6" style="display: none">
                                             <div class="form-group">
                                                 <label for="name"> Sub Category Name </label>
                                                 <select class="form-control" name="form[SubCategoryId]" id="subCate" onload="loadSubCategory1(<?= $category->CategoryId ?>)">.
@@ -89,7 +89,7 @@
 
 
 
-                                        <div class="col-lg-9" >
+                                        <div class="col-lg-7" >
                                             <div class="form-group">
                                                 <label for="name">Product Title </label>
                                                 <input type="text" id="ModelNumber" name="form[ProductTitle]"
@@ -110,7 +110,7 @@
                                         </div>
 
 
-                                        <div class="col-lg-6" style="display: none">
+                                        <div class="col-lg-2">
                                             <div class="form-group">
                                                 <label for="name">Price </label>
                                                 <input type="text" id="PriceRangeTo" name="form[PriceRangeTo]"

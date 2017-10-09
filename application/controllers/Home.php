@@ -183,16 +183,16 @@ class Home extends Front_Controller
 
     public function about_us()
     {
-        $this->view('about_us');
+        $this->view('about-us');
     }
 
 
 
 
 
-    public function business()
+    public function appoinment()
     {
-        $this->view('business');
+        $this->view('appoinment');
     }
 
     public function who()
@@ -368,6 +368,11 @@ class Home extends Front_Controller
     function static_page($page)
     {
 //        $this->load->view($page);
+    }
+
+    function contact()
+    {
+       $this->load->view('contact-us');
     }
 
     function sent_mail()

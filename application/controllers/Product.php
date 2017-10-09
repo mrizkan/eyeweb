@@ -131,7 +131,7 @@ class Product extends Front_Controller
 
 
 
-        $this->view('search', $d);
+        $this->view('products', $d);
 
 
     }
@@ -205,7 +205,7 @@ class Product extends Front_Controller
 //        p($CategoryId);
 
 //        $this->view('product',$d);
-        $this->view('all_product',$d);
+        $this->view('products',$d);
 
 
     }

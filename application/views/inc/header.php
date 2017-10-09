@@ -125,27 +125,27 @@
                     <div class="collapse navbar-collapse js-navbar-collapse text-center">
                         <ul id="sub-nav" class="nav navbar-nav navbar-menu">
                             <li>
-                                <a href="Home" class="dropdown-toggle">Home </a>
+                                <a href="<?= base_url('Home/') ?>" class="dropdown-toggle">Home </a>
 
                             </li>
                             <li>
-                                <a href="About-Us" class="dropdown-toggle">About us </a>
+                                <a href="<?= base_url('Home/about_us') ?>" class="dropdown-toggle">About us </a>
 
                             </li>
                             <li>
-                                <a href="Products" class="dropdown-toggle">Products </a>
+                                <a href="<?= base_url('Product/') ?>" class="dropdown-toggle">Products </a>
 
                             </li>
 
 
 
                             <li>
-                                <a href="Contact-Us" class="dropdown-toggle">Contact Us </a>
+                                <a href="<?= base_url('Home/contact') ?>" class="dropdown-toggle">Contact Us </a>
 
                             </li>
                         </ul>
                         <div class="navbar-right nav-right-center">
-                            <a href="Appointment" class="btn btn-type1 btn-sm"> Make an Appointment</a>                  </div>
+                            <a href="<?= base_url('Home/appoinment') ?>" class="btn btn-type1 btn-sm"> Make an Appointment</a>                  </div>
 
                     </div><!-- /.nav-collapse -->
                 </div>
