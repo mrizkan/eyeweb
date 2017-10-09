@@ -89,7 +89,7 @@
 
 
 
-                                        <div class="col-lg-7" >
+                                        <div class="col-lg-7">
                                             <div class="form-group">
                                                 <label for="name">Product Title </label>
                                                 <input type="text" id="ModelNumber" name="form[ProductTitle]"
@@ -159,7 +159,7 @@
                                         </div>
 
 
-                                        <div class="col-lg-6" >
+                                        <div class="col-lg-6">
                                             <div class="form-group">
                                                 <div class="form-group">
                                                     <label for="description">Short Description</label>
@@ -206,7 +206,7 @@
                                             <?= form_error('form[Image]') ?>
                                         </div>
 
-                                        <div class="col-lg-6" >
+                                        <div class="col-lg-6" style="display: none" >
                                             <div class="form-group">
                                                 <label for="description">Video Embed Code </label>
                                                 <textarea rows="5" name="form[VideoEmbedCode]"

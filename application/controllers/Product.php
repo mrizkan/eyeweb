@@ -131,7 +131,7 @@ class Product extends Front_Controller
 
 
 
-        $this->view('products', $d);
+        $this->view('products1', $d);
 
 
     }
@@ -142,7 +142,7 @@ class Product extends Front_Controller
         $d['total_count'] = $this->product->count_by([]);
         $d['count'] = $this->product->count_by([]);
 //        $d['one_category'] = $this->category->get($CategoryId);
-        $d['category_list'] = $this->category->order_by("Order", "ASC")->get_all();
+      //  $d['category_list'] = $this->category->order_by("Order", "ASC")->get_all();
 
 //    p($this->db->last_query());
 
@@ -191,7 +191,7 @@ class Product extends Front_Controller
 //        $this->db->join('category','product.CategoryId=category.CategoryID');
 //        $this->db->select("product.*,brand.BrandTitle,category.CategoryTitle");
         $d['pages']=round($choice);
-        $d['products'] = $this->product->order_by("Order", "ASC")->limit($config["per_page"],($page-1)*8)->get_all();
+        $d['products'] = $this->product->order_by("Order", "ASC")->get_all();
 
 //        $d["products"] = $this->product->order_by("Order", "ASC")->limit($config["per_page"],($page-1)*16)->get_many_by(['CategoryId'=>$CategoryId]);
         $d["links"] = $this->pagination->create_links();
@@ -580,4 +580,9 @@ class Product extends Front_Controller
 
 //=============================================================== End Garment =====================================================
 
+
+public function details()
+{
+    $this->view('product-details');
+}
 }

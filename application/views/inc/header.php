@@ -57,7 +57,10 @@
     <link rel="stylesheet" href="<?= base_url('media/css/') ?>header.css">
     <link rel="stylesheet" href="<?= base_url('media/css/') ?>style.css">
     <link rel="stylesheet" href="<?= base_url('media/css/') ?>color.css">
+
     <!-- Custom Css -->
+
+
 
     <link rel="shortcut icon" href="<?= base_url('media/images/') ?>logo.png" />
     <link rel="apple-touch-icon" href="<?= base_url('media/images/') ?>logo.png" />
@@ -133,7 +136,7 @@
 
                             </li>
                             <li>
-                                <a href="<?= base_url('Product/') ?>" class="dropdown-toggle">Products </a>
+                                <a href="<?= base_url('Product/product_index') ?>" class="dropdown-toggle">Products </a>
 
                             </li>
 
