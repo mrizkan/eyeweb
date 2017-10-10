@@ -316,7 +316,7 @@ class Product extends Front_Controller
 //        p($this->uri->segment(4));
 //        p($d['total_count']);
 
-        $this->view('product',$d);
+        $this->view('products',$d);
 //        $this->view('product');
 
 
@@ -364,7 +364,7 @@ class Product extends Front_Controller
 ////        p($d['one_category']);
 //        p($d['details']);
 
-        $this->view('detail', $d);
+        $this->view('product-details', $d);
 //        $this->view('detail');
 
 
@@ -581,8 +581,5 @@ class Product extends Front_Controller
 //=============================================================== End Garment =====================================================
 
 
-public function details()
-{
-    $this->view('product-details');
-}
+
 }

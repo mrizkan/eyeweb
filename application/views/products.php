@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <figcaption>
-                            <h3> <a href="<?= base_url('Product/details') ?>"><?= $b_data->ProductTitle ?></a></h3>
+                            <h3> <a href="<?= base_url('Product/detail') . '/' . $b_data->ProductId ?>"><?= $b_data->ProductTitle ?></a></h3>
 
                         </figcaption>
                     </figure>

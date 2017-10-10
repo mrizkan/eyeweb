@@ -41,7 +41,19 @@
                                     <div class="row">
 
                                         <div class="col-lg-6" >
-
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <label for="name">Category Name</label>
+                                                    <select class="form-control" name="form[CategoryId]" id="category" >
+                                                        <option value=""> Select Category </option>
+                                                        <?php foreach ($categories as $category): ?>
+                                                            <option
+                                                                value="<?= $category->CategoryId ?>" <?= set_value('form[CategoryId]', $obj->CategoryId) == $category->CategoryId ? "selected" : "" ?> > <?= $category->CategoryTitle ?> </option>
+                                                        <?php endforeach; ?>
+                                                    </select>
+                                                    <?= form_error('form[CategoryId]') ?>
+                                                </div>
+                                            </div>
 
                                             <div class="form-group" style="display: none">
                                                 <label for="name">Brand Name</label>
@@ -62,19 +74,7 @@
                                         </div>
 
 
-                                        <div class="col-lg-6" style="display: none">
-                                            <div class="form-group">
-                                                <label for="name">Category Name</label>
-                                                <select class="form-control" name="form[CategoryId]" id="category" >
-                                                    <option value=""> Select Category </option>
-                                                    <?php foreach ($categories as $category): ?>
-                                                        <option
-                                                            value="<?= $category->CategoryId ?>" <?= set_value('form[CategoryId]', $obj->CategoryId) == $category->CategoryId ? "selected" : "" ?> > <?= $category->CategoryTitle ?> </option>
-                                                    <?php endforeach; ?>
-                                                </select>
-                                                <?= form_error('form[CategoryId]') ?>
-                                            </div>
-                                        </div>
+
 
                                         <div class="col-lg-6" style="display: none">
                                             <div class="form-group">
@@ -91,7 +91,7 @@
 
                                         <div class="col-lg-7">
                                             <div class="form-group">
-                                                <label for="name">Product Title </label>
+                                                <label for="name">Product Name </label>
                                                 <input type="text" id="ModelNumber" name="form[ProductTitle]"
                                                        value="<?= set_value('form[ProductTitle]', $obj->ProductTitle) ?>"
                                                        class="form-control">

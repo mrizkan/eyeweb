@@ -84,7 +84,7 @@
                             </ul>
                         </li>
 
-                        <li class="has_sub" style="">
+                        <li class="has_sub">
                             <a href="#" class="waves-effect">
                                 <i class="ion ion-android-book"></i>
                                 <span> Category </span> <span
@@ -149,6 +149,18 @@
 
                 <li class="has_sub">
                     <a href="#" class="waves-effect">
+                        <i class="ion ion-android-book"></i>
+                        <span> Category </span> <span
+                            class="menu-arrow"></span> </a>
+                    <ul style="">
+                        <li><a href="<?= base_url('admin/category/create') ?>"><span>Create</span></a></li>
+                        <li><a href="<?= base_url('admin/category/') ?>"><span>Manage</span></a></li>
+                        <!--<li><a href="<?/*= base_url('admin/category/rearrange') */?>"><span>Category Re-arrange</span></a>-->
+                        </li>
+                    </ul>
+                </li>
+                <li class="has_sub">
+                    <a href="#" class="waves-effect">
                         <i class="fa fa-anchor"></i>
                         <span> Product </span> <span
                             class="menu-arrow"></span> </a>
@@ -160,7 +172,9 @@
                     </ul>
                 </li>
 
-                <li class="has_sub" style="display: none;">
+
+
+                <li class="has_sub">
                     <a href="#" class="waves-effect">
                         <i class="zmdi zmdi-fire"></i>
                         <span> Special Offers </span> <span
@@ -168,7 +182,7 @@
                     <ul style="">
                         <li><a href="<?= base_url('admin/offers/create') ?>"><span>Create</span></a></li>
                         <li><a href="<?= base_url('admin/offers/') ?>"><span>Manage</span></a></li>
-                        <li><a href="<?= base_url('admin/offers/rearrange') ?>"><span>Product Re-arrange</span></a>
+                        <!--<li><a href="<?/*= base_url('admin/offers/rearrange') */?>"><span>Product Re-arrange</span></a>-->
                         </li>
                     </ul>
                 </li>

@@ -135,8 +135,22 @@
                                 <a href="<?= base_url('Home/about_us') ?>" class="dropdown-toggle">About us </a>
 
                             </li>
+                            <li class="dropdown">
+                                <a href="javascrip: void (0)" class="dropdown-toggle">Products </a>
+                                <ul>
+
+                                        <ul class="dropdown-menu" role="menu">
+                                            <?php foreach($categories_menu as $catMenu):  ?>
+                                            <li><a href="<?= base_url('Product/product_category').'/' . $catMenu->CategoryId ?>"><?= $catMenu->CategoryTitle ?></a></li>
+                                            <?php endforeach; ?>
+
+                                        </ul>
+
+                                </ul>
+
+                            </li>
                             <li>
-                                <a href="<?= base_url('Product/product_index') ?>" class="dropdown-toggle">Products </a>
+                                <a href="#" class="dropdown-toggle">Service </a>
 
                             </li>
 
