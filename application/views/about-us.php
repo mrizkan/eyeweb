@@ -1,6 +1,4 @@
-<?php include ('inc/header.php'); ?>
-
-
+<?php $this->view('inc/header.php'); ?>
 
     <!-- Banner Section
     ================================= -->
@@ -217,4 +215,4 @@
 
 
 
-<?php include ('inc/footer.php'); ?>
+<?php $this->view('inc/footer.php'); ?>

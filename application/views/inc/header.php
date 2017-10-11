@@ -150,7 +150,7 @@
 
                             </li>
                             <li>
-                                <a href="#" class="dropdown-toggle">Service </a>
+                                <a href="<?= base_url('Home/service') ?>" class="dropdown-toggle">Service </a>
 
                             </li>
 

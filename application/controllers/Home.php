@@ -188,11 +188,19 @@ class Home extends Front_Controller
 
 
 
-
-
     public function appoinment()
     {
         $this->view('appoinment');
+    }
+
+    public function service()
+    {
+        $this->view('service');
+    }
+
+    public function contact()
+    {
+        $this->view('contact-us');
     }
 
     public function who()
@@ -370,10 +378,9 @@ class Home extends Front_Controller
 //        $this->load->view($page);
     }
 
-    function contact()
-    {
-       $this->load->view('contact-us');
-    }
+
+
+
 
     function sent_mail()
     {

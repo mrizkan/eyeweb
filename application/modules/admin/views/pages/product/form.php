@@ -172,7 +172,7 @@
                                         <div class="col-lg-6">
                                             <div class="form-group">
                                                 <label> Default Image
-                                                    <small> image size ( 800px * 800px )</small>
+                                                    <small> image size ( 450px * 450px )</small>
                                                 </label>
                                             </div>
                                             <div class="fileinput-button btn btn-success sepH_b">
