@@ -12,7 +12,7 @@
                     <span class="fw-normal">About</span> Us
                 </div>
                 <ol class="breadcrumb text-left fadeInRight animated">
-                    <li><a href="index.htm">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="#"> About Us </a></li>
 
                 </ol>

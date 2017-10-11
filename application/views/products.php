@@ -10,7 +10,7 @@
                 <div class="skew-effect fadeInLeft animated">
                     <span class="fw-normal">Our</span> Products</div>
                 <ol class="breadcrumb text-left fadeInRight animated">
-                    <li><a href="index.htm">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li><a href="#"> Products </a></li>
 
                 </ol>

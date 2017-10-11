@@ -186,7 +186,7 @@
                                                 <?php if ($obj->Image): ?>
                                                     <li>
                                                         <div class="upload_img_single thumbnail">
-                                                            <img src="<?= UPT . $obj->Image ?>"
+                                                            <img src="<?= UP . $obj->Image ?>"
                                                                  class="thumbnail img-responsive" alt=""/>
 
                                                             <div class="upload_img_actions">
@@ -291,7 +291,7 @@
                                     <?php foreach ($MoreImage as $img): ?>
                                         <li class="upload_img_single">
                                             <div class=" thumbnail">
-                                                <img src="<?= UPT . $img ?>" class="thumbnail img-responsive" alt=""/>
+                                                <img src="<?= UP. $img ?>" class="thumbnail img-responsive" alt=""/>
 
                                                 <div class="upload_img_actions">
                                                      <span class=" fa fa-times pull-right btn  btn-danger  "

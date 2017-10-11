@@ -9,7 +9,7 @@
             <div class="skew-effect fadeInLeft animated">
                 <span class="fw-normal">Schedule </span>Appointment				</div>
             <ol class="breadcrumb text-left fadeInRight animated">
-                <li><a href="Home">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="javascript: void (0)">Schedule Appointment</a></li>
             </ol>
         </div>

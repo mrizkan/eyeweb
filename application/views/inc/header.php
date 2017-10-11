@@ -124,7 +124,7 @@
             <div class="container">
                 <div class="menu clearfix">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="Home"><img src="<?= base_url('media/images/') ?>logo.png" alt=" " class="img-responsive center-block"></a>                </div>
+                        <a class="navbar-brand" href="/"><img src="<?= base_url('media/images/') ?>logo.png" alt=" " class="img-responsive center-block"></a>                </div>
                     <div class="collapse navbar-collapse js-navbar-collapse text-center">
                         <ul id="sub-nav" class="nav navbar-nav navbar-menu">
                             <li>
@@ -136,7 +136,7 @@
 
                             </li>
                             <li class="dropdown">
-                                <a href="javascrip: void (0)" class="dropdown-toggle">Products </a>
+                                <a href="<?= base_url('Products/') ?>" class="dropdown-toggle">Products </a>
                                 <ul>
 
                                         <ul class="dropdown-menu" role="menu">

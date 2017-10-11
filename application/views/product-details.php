@@ -9,11 +9,11 @@
     <div class="container">
         <div class="subbanner-content banner-content">
             <div class="skew-effect fadeInLeft animated">
-                <span class="fw-normal">Case</span> Studies            </div>
+                <span class="fw-normal"><?= $details->ProductTitle ?></span>  Details       </div>
             <ol class="breadcrumb text-left fadeInRight animated">
-                <li><a href="index.htm">Home</a></li>
-                <li><a href="#"> Product</a></li>
-                <li><a href="#">Product Detail</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="<?= base_url('Products/') ?>"> Product</a></li>
+                <li><a href="javascript: void (0)">Product Detail</a></li>
             </ol>
         </div>
     </div>
@@ -37,22 +37,24 @@
 
 
                             <div class="sp-wrap">
-                                <a href="<?= base_url('media/images/') ?>LES-1-before.jpg"><img src="<?= base_url('media/images/') ?>LES-1-before.jpg" alt=""></a>
-                                <a href="<?= base_url('media/images/') ?>details-22.jpg"><img src="<?= base_url('media/images/') ?>details-22.jpg" alt=""></a>
-
+                                <a href="<?= UP . $details->Image ?>"><img src="<?= UP . $details->Image ?>" alt=""></a>
+                                <?php $MoreImage = (array) json_decode($details->MoreImage ); ?>
+                                <?php foreach ( $MoreImage as $img): ?>
+                                <a href="<?= UP. $img ?>"><img src="<?= UP. $img ?>" alt=""></a>
+                                <?php endforeach; ?>
                             </div>
 
 
                     </div>
 
                     <div class="col-md-6 fadeInRight animated">
-                        <h3>Wavefront LASEK</h3>
-                        <p class="fontresize">Wavefront ensures that the LASIK procedure is done exactly to your own eyes specifications, by scanning it initially using wavefront technology. </p>
+                        <h3><?= $details->ProductTitle ?></h3>
+                        <p class="fontresize"><?= $details->ShortDescription ?></p>
 
-                        <p class="fontresize">Cras ullamcorper vestibulum ex a tempus. Nam a suscipit lacus, ut facilisis magna. Aliquam ultricies nunc nec euismod sagittis. Nam at arcu non mauris aliquam lacinia. </p>
+
 
                         <ul class="list-type1-small fontresize">
-                            <li> <strong>Price :</strong> Rs.500</li>
+                            <li> <strong>Price :</strong> <?= $details->PriceRangeTo ?></li>
 
                         </ul>
 
