@@ -140,7 +140,7 @@
 <!-- /Right-bar -->
 
 <footer class="footer text-right">
-    <?php echo date("Y"); ?> &copy; <?= TITLE ?> | Developed By Riz Creations. +94 777 943 607
+    <?php echo date("Y"); ?> &copy; <?= TITLE ?> | Developed By <a href="https://www.facebook.com/RizkanCreations/" target="_blank"> Riz Creations </a> +94 777 943 607
 </footer>
 
 

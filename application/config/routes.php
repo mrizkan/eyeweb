@@ -55,10 +55,14 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['About-Us'] = 'Home/about-us';
-$route['Contact-Us'] = 'Home/contact_us';
+$route['About-Us'] = 'Home/about_us';
+$route['Contact-Us'] = 'Home/contact';
 $route['Services'] = 'Home/services';
+$route['Service-Details'] = 'Home/service_details';
+
 $route['Packages'] = 'Home/packages';
+$route['Products'] = 'Products/';
+$route['Appointment'] = 'Home/appoinment';
 //$route['IP-Tv'] = 'Home/iptv';
 //$route['Package-Details/(.+)/(.+)/(:num)'] = 'Home/package_details/$3';
 

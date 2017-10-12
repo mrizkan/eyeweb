@@ -276,7 +276,7 @@
                     <div>
                         <div class="card-box" >
                             <h4 class="header-title m-t-0 m-b-30">More Images
-                                <small> image size ( 800px * 800px )</small>
+                                <small> image size ( 450px * 450px )</small>
                             </h4>
 
                             <div class="row ">

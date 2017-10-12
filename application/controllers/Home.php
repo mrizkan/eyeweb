@@ -24,6 +24,7 @@ class Home extends Front_Controller
         $this->load->model('Channel_Tag_model', 'chanellTag');
         $this->load->model('Channel_model', 'channel');
         $this->load->model('Iptv_model', 'iptv');
+        $this->load->model('Offers_model', 'offer');
 
 
 
@@ -35,6 +36,8 @@ class Home extends Front_Controller
         $d['sliders'] = $this->slider->order_by('Order', 'ASC')->get_all();
 //        $d['related_products'] = $this->product->order_by("Order", "ASC")->limit(6)->get_all();
         $d['related_products'] = $this->product->limit(4)->order_by("ProductId", "DESC")->get_all();
+
+        $d['offers'] = $this->offer->order_by('Order', 'ASC')->get_all();
 
 
 
@@ -193,6 +196,11 @@ class Home extends Front_Controller
         $this->view('appoinment');
     }
 
+    public function service_details()
+    {
+        $this->view('service-details');
+    }
+
     public function service()
     {
         $this->view('service');
@@ -303,7 +311,7 @@ class Home extends Front_Controller
 //    ====================================================================================================
     public function services()
     {
-        $this->view('services');
+        $this->view('service');
     }
     public function ourclients()
     {

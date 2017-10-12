@@ -77,7 +77,7 @@
                                                 <?php if ($obj->Image): ?>
                                                     <li>
                                                         <div class="upload_img_single thumbnail">
-                                                            <img src="<?= UPT . $obj->Image ?>"
+                                                            <img src="<?= UP . $obj->Image ?>"
                                                                  class="thumbnail img-responsive" alt=""/>
 
                                                             <div class="upload_img_actions">

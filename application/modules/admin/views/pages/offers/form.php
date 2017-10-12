@@ -43,7 +43,7 @@
                                         <div class="col-lg-6" >
 
 
-                                            <div class="form-group">
+                                            <div class="form-group" style="display: none">
                                                 <label for="name">Brand Name</label>
 
 
@@ -62,7 +62,7 @@
                                         </div>
 
 
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6" style="display: none">
                                             <div class="form-group">
                                                 <label for="name">Category Name</label>
                                                 <select class="form-control" name="form[CategoryId]" id="category" >
@@ -76,7 +76,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6" style="display: none">
                                             <div class="form-group">
                                                 <label for="name"> Sub Category Name </label>
                                                 <select class="form-control" name="form[SubCategoryId]" id="subCate" onload="loadSubCategory1(<?= $category->CategoryId ?>)">.
@@ -110,7 +110,7 @@
                                         </div>
 
 
-                                        <div class="col-lg-6" style="display: none">
+                                        <div class="col-lg-3">
                                             <div class="form-group">
                                                 <label for="name">Price </label>
                                                 <input type="text" id="PriceRangeTo" name="form[PriceRangeTo]"
@@ -123,8 +123,8 @@
                                         </div>
 
 
-                                        <div class="col-lg-6 ">
-                                            <div class="form-group">
+                                        <div class="col-lg-6">
+                                            <div class="form-group"  style="display: none">
                                                 <label for="name">Discount Price</label>
                                                 <input type="text" id="PriceRangeFrom" name="form[PriceRangeFrom]"
                                                        value="<?= set_value('form[PriceRangeFrom]', $obj->PriceRangeFrom) ?>"
@@ -172,7 +172,7 @@
 
 
 
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6" style="display: none">
                                             <div class="form-group">
                                                 <label> Default Image
                                                     <small> image size ( 800px * 800px )</small>
@@ -209,7 +209,7 @@
                                             <?= form_error('form[Image]') ?>
                                         </div>
 
-                                        <div class="col-lg-6" >
+                                        <div class="col-lg-6" style="display: none" >
                                             <div class="form-group">
                                                 <label for="description">Video Embed Code </label>
                                                 <textarea rows="5" name="form[VideoEmbedCode]"
@@ -261,7 +261,7 @@
                                         </div>
 
 
-                                        <div class="col-lg-12" >
+                                        <div class="col-lg-12" style="display: none" >
                                             <div class="form-group">
                                                 <label for="description">Description</label>
                                                 <textarea id="description" rows="5" name="form[Description]"
@@ -277,7 +277,7 @@
                     </div>
 
                     <div>
-                        <div class="card-box" >
+                        <div class="card-box" style="display: none" >
                             <h4 class="header-title m-t-0 m-b-30">More Images
                                 <small> image size ( 800px * 800px )</small>
                             </h4>

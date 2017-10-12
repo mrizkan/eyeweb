@@ -47,9 +47,9 @@
                                     <thead>
                                     <tr>
                                         <th> #</th>
-                                        <th> Category</th>
+                                        <th> Price</th>
 <!--                                        <th> Sub Category</th>-->
-                                        <th> Offer Product Name</th>
+                                        <th> Offer Product Title</th>
                                         <th> Action</th>
                                     </tr>
                                     </thead>
@@ -57,7 +57,7 @@
                                     <?php foreach ($records as $k => $row): ?>
                                         <tr>
                                             <td> <?= $k + 1 ?>  </td>
-                                            <td> <?= $row->CategoryTitle ?>  </td>
+                                            <td> <?= $row->PriceRangeTo ?>  </td>
                                            <!-- <td> <?/*= $row->SubCategoryTitle */?>  </td>-->
                                             <td> <?= $row->OfferProductTitle ?>  </td>
                                             <td class="text-center">

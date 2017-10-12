@@ -47,7 +47,7 @@
                              data-speed="1000" data-start="2000"
                              data-easing="Back.easeInOut"
                              data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14;"><a class="btn btn-type1" href="Contact-Us">Get a Free Consultation</a>                            </div>
+                             data-endeasing="Back.easeIn" style="z-index: 14;"><a class="btn btn-type1" href="<?=$slider->Url ?>">Get a Free Consultation</a>                            </div>
                     </li>
                                 <?php endforeach; ?>
 
@@ -212,10 +212,12 @@
                     <div class="clearfix">
                         <div class="center-banner-title text-capitalize"><small class="label label-default">Limited time only</small></div>
                         <div class="offer">
-                            RS.1500<small> For Glass</small>
+                            <?php foreach ($offers as $offer): ?>
+                            Rs.<?=$offer->PriceRangeTo ?><small> For <?=$offer->OfferProductTitle ?></small>
                         </div>
-                        <div class="center-banner-title">& we accept flex spending, accept all type of credit cards</div>
+                        <div class="center-banner-title"><?=$offer->ShortDescription ?></div>
                     </div>
+                            <?php endforeach ?>
                     <a href="Contact-Us" class="btn btn-type1 btn-big text-uppercase growIn animated slowest">Schedule your free exam today <i class="fa fa-fw fa-chevron-right"></i></a>
                     <div class="row">
                         <div class="col-md-4 media marbot10">

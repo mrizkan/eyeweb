@@ -32,13 +32,13 @@ class Offers extends MY_Controller
     {
 
 
-        $this->form_validation->set_rules("form[CategoryId]", "Category Name", "required");
+//        $this->form_validation->set_rules("form[CategoryId]", "Category Name", "required");
         $this->form_validation->set_rules("form[OfferProductTitle]", "Offer Product Title", "required");
-        $this->form_validation->set_rules("form[Description]","Description","required");
-        $this->form_validation->set_rules("form[BrandId]", "Brand Name", "required");
-        $this->form_validation->set_rules("form[Image]","Product Image","required");
+//        $this->form_validation->set_rules("form[Description]","Description","required");
+ //       $this->form_validation->set_rules("form[BrandId]", "Brand Name", "required");
+//        $this->form_validation->set_rules("form[Image]","Product Image","required");
 //        $this->form_validation->set_rules("form[PriceRangeTo]", "Price Range (To)", "required");
-        $this->form_validation->set_rules("form[PriceRangeFrom]", "Discount Price", "required|numeric");
+ //       $this->form_validation->set_rules("form[PriceRangeFrom]", "Discount Price", "required|numeric");
 //        $this->form_validation->set_rules("form[Color]", "Color", "required");
 
         if ($this->form_validation->run()) {
@@ -96,9 +96,7 @@ class Offers extends MY_Controller
 //            'records' => $this->model->join('category')->join('sub_category')
 //                ->fields("{$this->model->table()}.* , CategoryTitle,{$this->sub_cate->table()}.SubCategoryTitle ")
 //                ->get_all()
-        'records' => $this->model->join('category')
-                ->fields("{$this->model->table()}.* , CategoryTitle")
-                ->get_all()
+        'records' => $this->model->get_all()
 //            'records' => $this->model->limit(18)->get_all()
         ];
 //        p($this->db->last_query());exit;
