@@ -47,7 +47,7 @@
                              data-speed="1000" data-start="2000"
                              data-easing="Back.easeInOut"
                              data-endspeed="400"
-                             data-endeasing="Back.easeIn" style="z-index: 14;"><a class="btn btn-type1" href="<?=$slider->Url ?>">Get a Free Consultation</a>                            </div>
+                             data-endeasing="Back.easeIn" style="z-index: 14;"><a class="btn btn-type1" href="<?=$slider->Url ?>"><?=$slider->Description ?></a>                            </div>
                     </li>
                                 <?php endforeach; ?>
 

@@ -54,13 +54,20 @@
                                                           class="form-control"><?= set_value('form[ShortDescription]', $obj->ShortDescription) ?></textarea>
                                             </div>
                                             <div class="form-group">
-                                                <label for="name"> Url </label>
-                                                <input type="url" id="Url" name="form[Url]"
+                                                <label for="name"> Button Url </label>
+                                                <input type="text" id="Url" name="form[Url]"
                                                        value="<?= set_value('form[Url]', $obj->Url) ?>"
                                                        class="form-control">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="name">Button Text </label>
+                                                <input type="text" id="Description" name="form[Description]"
+                                                       value="<?= set_value('form[Description]', $obj->Description) ?>"
+                                                       class="form-control">
+                                                <?= form_error('form[Description]') ?>
+                                            </div>
                                             <div class="form-group">
                                                 <label> Slider Default Image
                                                     <small> image size ( 1900px * 950px )</small>
@@ -95,6 +102,7 @@
                                                 <?php endif; ?>
                                             </ul>
                                             <?= form_error('form[Image]') ?>
+
                                         </div>
                                     </div>
                                 </div>

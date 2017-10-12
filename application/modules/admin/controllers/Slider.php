@@ -30,7 +30,8 @@ class Slider extends MY_Controller
 
 
         $this->form_validation->set_rules("form[SliderTitle]", "Slider Name", "required");
-        $this->form_validation->set_rules("form[Image]", "Slider Name", "required");
+        $this->form_validation->set_rules("form[Image]", "Slider Image", "required");
+        $this->form_validation->set_rules("form[Description]", "Slider Button Text", "required");
 
         if ($this->form_validation->run()) {
 
