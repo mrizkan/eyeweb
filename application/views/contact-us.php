@@ -1,4 +1,4 @@
-<?php include ('inc/header.php'); ?>
+<?php $this->view('inc/header.php'); ?>
 
 
 <!-- Banner Section
@@ -147,43 +147,71 @@
         <div class="row animatedParent animateOnce">
             <div class="col-md-12 fadeInUp animated">
 
-                <form  id="contact_form" class="contact-form-simple" method="post">
+                <form  id="contactform">
                     <div class="row clearfix">
 
                         <div class="col-md-5">
 
                             <div class="clearfix control-group">
-                                <input name="name" type="text" class="validate['required'] textbox1" placeholder="Name" onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Name :'"  />
+                                <input name="name" type="text" required=""  placeholder="Name"/>
                             </div>
 
                             <div class="clearfix control-group">
-                                <input name="email" type="text" class="validate['required'] textbox1" placeholder="Email" onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Email :'" />
+                                <input name="email" type="text" required=""  placeholder="Email" />
                             </div>
 
                             <div class="clearfix control-group">
-                                <input name="phone" type="text" class="validate['required'] textbox1" placeholder="Phone" onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Phone :'" />
+                                <input name="phone" type="text" required=""  placeholder="Phone" />
                             </div>
 
                         </div>
 
                         <div class="col-md-7">
                             <div class="clearfix control-group">
-                                <textarea name="message" class="validate['required'] messagebox1" placeholder="Message" onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Message :'"></textarea>
+                                <textarea name="message" required="required" placeholder="Message"></textarea>
                             </div>
                             <div class="clearfix">
+                                <div id="status"></div>
                                 <button type="submit" class="btn btn-type1-reverse"> Submit </button>
+
                             </div>
                         </div>
 
                     </div>
                 </form>
-                <div id="post_message"><p class="fontresize marbot0"> </p></div>
+
 
             </div>
         </div>
     </div>
 
 </section>
+
+<script src="<?= base_url('media/js/') ?>jquery-1.11.1.min.js"></script>
+<script src="<?= base_url('media/js/') ?>bootstrap.min.js"></script>
+
+<script>
+
+    // this is the id of the form
+    $(document).ready(function(){
+
+        $("#contactform").submit(function(e) {
+            //  e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: '<?= base_url()?>/home/ajax_mail',
+                data: $(this).serialize(), // serializes the form's elements.
+                success: function(data)
+                {
+                    $('#status').html('<p  class="fontresize text-center color-light bold">Your Query Sent Successfully We will Contact you Soon</p>');
+                    $('#contactform')[0].reset();
+                }
+            });
+            return false;
+        });
+
+    });
+</script>
 
 <!-- // Contact map Section
 ================================================== -->
@@ -194,4 +222,4 @@
 <!-- // Map Section
 ================================================== -->
 
-<?php include ('inc/footer.php'); ?>
+<?php $this->view('inc/footer.php'); ?>

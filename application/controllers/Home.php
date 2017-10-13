@@ -458,4 +458,59 @@ class Home extends Front_Controller
     }
 
 
+    public function ajax_mail()
+    {
+        if (isset($_POST['name'])){
+            $name = $_POST['name'];
+            $phone = $_POST['phone'];
+            $email = $_POST['email'];
+
+            $message = $_POST['message'];
+            $to = "rizkan@itmartx.net";
+            $from = $name;
+            $s = 'Contact form Website';
+            $m = '<strong>Name: </strong>'.$name.'<br /> <strong>E-mail: </strong>'.$email.'<br /><strong>Phone:</strong>'.$phone.'<br/><strong>message:</strong>'.$message.'<br/>';
+            $h .= 'Content-type: text/html; charset=UTF-8' . PHP_EOL;
+            $h .= "from: $from\n";
+            $h .= "MIME-Version: 1.1\n";
+            $h .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
+
+            if ( mail($to, $s, $m, $h)){
+                echo "success";
+            }else{
+                echo"there is a problem";
+            }
+
+        }
+    }
+
+    public function ajax_appointment()
+    {
+
+        if (isset($_POST['firstname'])){
+            $name = $_POST['firstname'];
+            $name2 = $_POST['lastname'];
+            $date = $_POST['dt'];
+            $consulting = $_POST['consulting'];
+            $phone = $_POST['phone'];
+            $message = $_POST['message'];
+            $to = "rizkan@itmartx.net";
+            $from = $name;
+            $s = 'Appointment';
+            $m = '<strong>Name: </strong>'.$name. $name2.'<br /> <strong>Date: </strong>'.$date.'<br /><strong>Phone:</strong>'.$phone.'<br/><strong>Consulting:</strong>'.$consulting.'<br/><strong>message:</strong>'.$message.'<br/>';
+            $h .= 'Content-type: text/html; charset=UTF-8' . PHP_EOL;
+            $h .= "from: $from\n";
+            $h .= "MIME-Version: 1.1\n";
+            $h .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
+
+            if ( mail($to, $s, $m, $h)){
+                echo "success";
+            }else{
+                echo"there is a problem";
+            }
+
+        }
+
+    }
+
 }

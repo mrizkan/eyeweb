@@ -1,4 +1,4 @@
-<?php include ('inc/header.php');?>
+<?php $this->view('inc/header.php'); ?>
 
 <!-- Banner Section
 ================================= -->
@@ -58,7 +58,7 @@
 
                 <!-- Section 2 -->
                 <div class="col-md-8">
-                    <form id="appointment-form" class="appointment panel panel-body marbot40 panel-grey" method="post" action="#">
+                    <form id="appointmentform" class="appointment panel panel-body marbot40 panel-grey">
                         <h3>Fix an appointment</h3>
                         <!-- Dropdown List -->
                         <div class="row clearfix">
@@ -76,14 +76,14 @@
                                 <div class="col-md-6">
                                     <div class="clearfix form-group">
                                         <label>First Name</label>
-                                        <input name="firstname" type="text" id="firstname" class="validate['required'] textbox1" placeholder="">
+                                        <input name="firstname" type="text" required="" placeholder="">
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="clearfix form-group">
                                         <label for="lastname">Last Name</label>
-                                        <input name="lastname" type="text" class="form-control" id="lastname" placeholder="">
+                                        <input name="lastname" type="text" placeholder="">
                                     </div>
                                 </div>
                             </div>
@@ -94,11 +94,11 @@
                                         <div class="clearfix marbot20">
                                             <label for="date-time">Select Date</label>
                                             <div id="datetimepicker" class="input-group date form_datetime" data-date-format="dd MM yyyy" data-link-field="dtp_input1">
-                                                <input name="dt" type="text" value="" id="date-time" readonly>
+                                                <input name="dt" type="text" required="" value="" id="date-time" readonly>
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
                                                 <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
                                             </div>
-                                            <input type="hidden" id="dtp_input1" value="" />
+                                            <input type="hidden" id="dtp_input1" required=""  value="" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="phone-number">Phone number</label>
-                                        <input name="phone" type="text" class="form-control" id="phone-number" placeholder="">
+                                        <input name="phone" type="text" required="" placeholder="">
                                     </div>
                                 </div>
                             </div>
@@ -120,8 +120,8 @@
                                 <div class="form-group">
                                     <label for="message">Please Select Below</label>
                                     <!--<textarea class="form-control" rows="4" id="message"> </textarea>-->
-                                    <select name="consulting" class="select reason-option">
-                                        <option value="Please Select Below"> --- --- Select Below --- --- </option>
+                                    <select name="consulting" class="select reason-option" required="required">
+                                        <option value=""> --- --- Select Below --- --- </option>
                                         <option value="I Would Like to Book a Consultation">I Would Like to Book a Consultation</option>
                                         <option value="I Would Like a Call Back">I Would Like a Call Back</option>
                                         <option value="I'm Interested in LASIK or LASEK">I'm Interested in LASIK or LASEK</option>
@@ -144,7 +144,7 @@
                             <div class="col-md-9">
                                 <div class="form-group">
                                     <label for="message">Message</label>
-                                    <textarea name="message" class="form-control" rows="4" id="message"> </textarea>
+                                    <textarea name="message" required="" rows="4"> </textarea>
                                 </div>
                             </div>
 
@@ -155,6 +155,7 @@
 
                         <div class="row clearfix">
                             <div class="col-md-12">
+                                <div id="status"></div>
                                 <button type="submit" class="btn btn-type1-reverse">Book Appointment</button>
                             </div>
                         </div>
@@ -165,6 +166,35 @@
                 </div>
                 <!-- // Section 2 -->
 
+
+                <script src="<?= base_url('media/js/') ?>jquery-1.11.1.min.js"></script>
+                <script src="<?= base_url('media/js/') ?>bootstrap.min.js"></script>
+
+                <script>
+
+                    // this is the id of the form
+                    $(document).ready(function(){
+
+                        $("#appointmentform").submit(function(e) {
+                            //  e.preventDefault();
+                            $.ajax({
+                                type: "POST",
+                                url: '<?= base_url()?>/home/ajax_appointment',
+                                data: $(this).serialize(), // serializes the form's elements.
+                                success: function(data)
+                                {
+                                    $('#status').html('<p  class="fontresize text-center color-light bold">Appointment Request Success, We will Contact you Soon</p>');
+                                    $('#appointmentform')[0].reset();
+                                }
+                            });
+                            return false;
+                        });
+
+                    });
+                </script>
+
+
+
             </div>
         </div>
     </div>
@@ -174,4 +204,4 @@
 ================================================== -->
 
 
-<?php include ('inc/footer.php');?>
+<?php $this->view('inc/footer.php'); ?>

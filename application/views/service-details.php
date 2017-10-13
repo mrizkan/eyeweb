@@ -59,3 +59,11 @@
 
 
 <?php $this->view('inc/footer.php'); ?>
+
+
+
+
+
+
+
+
