@@ -35,10 +35,11 @@
                     <div class="col-md-6">
                         <div class="clearfix">
                             <ul class="footer-strip-menu list-unstyled">
-                                <li><a href="Home">Home</a></li>
-                                <li><a href="About-Us">About Us</a></li>
-                                <li><a href="Products">Products</a></li>
-                                <li><a href="Contact-Us">Contact Us</a></li>
+                                <li><a href="<?= base_url('/') ?>">Home</a></li>
+                                <li><a href="<?= base_url('About-Us') ?>">About Us</a></li>
+                                <li><a href="<?= base_url('Products') ?>">Products</a></li>
+                                <li><a href="<?= base_url('Services') ?>">Service</a></li>
+                                <li><a href="<?= base_url('Contact-Us') ?>">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>

@@ -59,7 +59,7 @@
     <link rel="stylesheet" href="<?= base_url('media/css/') ?>color.css">
 
     <!-- Custom Css -->
-
+    <link rel="stylesheet" href="<?= base_url('media/css/') ?>smoothproducts.css">
 
 
     <link rel="shortcut icon" href="<?= base_url('media/images/') ?>logo.png" />

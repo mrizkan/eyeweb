@@ -60,15 +60,15 @@ $route['Contact-Us'] = 'Home/contact';
 $route['Services'] = 'Home/services';
 $route['Service-Details'] = 'Home/service_details';
 
-$route['Packages'] = 'Home/packages';
-$route['Products'] = 'Products/';
+//$route['Packages'] = 'Home/packages';
+//$route['Products'] = 'Products/index';
 $route['Appointment'] = 'Home/appoinment';
 //$route['IP-Tv'] = 'Home/iptv';
 //$route['Package-Details/(.+)/(.+)/(:num)'] = 'Home/package_details/$3';
 
-$route['Brand/(.+)/(:num)/(:num)'] = 'brand/brand_category/$2';
-$route['Brand/(.+)/(:num)'] = 'brand/brand_category/$2';
-$route['Brands'] = 'brand/index';
+//$route['Brand/(.+)/(:num)/(:num)'] = 'brand/brand_category/$2';
+//$route['Brand/(.+)/(:num)'] = 'brand/brand_category/$2';
+//$route['Brands'] = 'brand/index';
 //$route['Foreign-Principals'] = 'Home/foreign_principals';
 //$route['Vacancies'] = 'Vacancies/index';
 //$route['Vacancy-Details/(.+)/(.+)'] = 'Vacancies/details/$2';
@@ -78,27 +78,27 @@ $route['Brands'] = 'brand/index';
 //$route['Collector-Wanted'] = 'Home/collector_wanted';
 //==================================================================
 
-$route['Products/Search?'] = 'product/index';
+//$route['Products/Search?'] = 'product/index';
 
-$route['Product/(.+)/(.+)/(:num)/(:num)'] = 'product/product_sub_category/$3/$4';
-$route['Product/(.+)/(.+)/(:num)'] = 'product/product_sub_category/$3';
+//$route['Product/(.+)/(.+)/(:num)/(:num)'] = 'product/product_sub_category/$3/$4';
+//$route['Product/(.+)/(.+)/(:num)'] = 'product/product_sub_category/$3';
 
-$route['Products/(.+)/(:num)/(:num)'] = 'product/product_category/$2';
-$route['Products/(.+)/(:num)'] = 'product/product_category/$2';
+//$route['Products/(.+)/(:num)/(:num)'] = 'product/product_category/$2';
+//$route['Products/(.+)/(:num)'] = 'product/product_category/$2';
 
 $route['Product-Details/(.+)/(.+)'] = 'product/detail/$2';
 
-$route['Products/(:num)'] = 'product/product_index/$1';
+//$route['Products/(:num)'] = 'product/product_index/$1';
 $route['Products'] = 'product/product_index';
 
-$route['Special-Offers/(:num)'] = 'product/special_offer/$1';
-$route['Special-Offers'] = 'product/special_offer';
+//$route['Special-Offers/(:num)'] = 'product/special_offer/$1';
+//$route['Special-Offers'] = 'product/special_offer';
 
-$route['Special-Offer-Details/(.+)/(:num)'] = 'product/special_offer_detail/$2';
+//$route['Special-Offer-Details/(.+)/(:num)'] = 'product/special_offer_detail/$2';
 
-$route['Garments/(.+)/(:num)/(:num)'] = 'product/garment/$2/$3';
-$route['Garments/(.+)/(:num)'] = 'product/garment/$2';
-$route['Garment/(.+)/(:num)'] = 'product/garment_detail/$2';
+//$route['Garments/(.+)/(:num)/(:num)'] = 'product/garment/$2/$3';
+//$route['Garments/(.+)/(:num)'] = 'product/garment/$2';
+//$route['Garment/(.+)/(:num)'] = 'product/garment_detail/$2';
 
 //$route['Ongoing-Projects'] = 'Onproject/index';
 //$route['Ongoing-Projects/(.+)'] = 'Onproject/index/$1';

@@ -1,5 +1,6 @@
-<?php include('inc/header.php'); ?>
-<?php include('inc/pdetails-head.php'); ?>
+<?php $this->view('inc/header.php'); ?>
+
+<?php $this->view('inc/pdetails-head.php'); ?>
 
 
 <!-- Banner Section
@@ -68,6 +69,6 @@
 <!-- // before after Section
 ================================= -->
 
-<?php include('inc/pdetails-footer.php'); ?>
-<?php include('inc/footer.php'); ?>
+<?php $this->view('inc/pdetails-footer.php'); ?>
+<?php $this->view('inc/footer.php'); ?>
 
