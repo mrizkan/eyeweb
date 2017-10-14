@@ -239,12 +239,7 @@ jQuery('#contact_form').validate(
     .text('OK!').addClass('valid')
     .closest('.control-group').removeClass('error').addClass('success');
     },
-	submitHandler: function(form) {
-					// do other stuff for a valid form
-					jQuery.post('contact-general-form.php', jQuery("#contact_form").serialize(), function(data) { // action file is here
-						jQuery('#post_message').html(data);
-					});
-				}
+
     });
 
 /* Appointment form */

@@ -32,25 +32,24 @@
         <div class="row">
             <div class="clearfix">
                 <!-- Section 1 -->
-                <div class="col-md-8 marbot10">
+                <div class="col-md-4 marbot10">
 
                     <div class="marbot0 clearfix">
                         <div class="row">
-                            <div class="col-md-6 marbot30">
+                            <div class="col-md-12 marbot30">
                                 <!-- Location -->
                                 <div class="media media-base-align">
                                     <div class="media-left">
                                         <i class="flaticon-technology-6 color-light location-icon"></i>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="contact-heading">Princeton, New Jersy</h3>
+                                        <h3 class="contact-heading">Eye with Us Opticals</h3>
                                         <p class="fontresize marbot10">
-                                            #13, 6th Avenue, 3rd Cross Street, <br />
-                                            Princeton, NJ 36310.
+                                            #91b, Old Galle Rd, Panadura 12500
                                         </p>
                                         <p class="fontresize">
-                                            <span class="bold">Phone:(255)-567-1234</span> <br />
-                                            Fax:(255)-567-1234
+                                            <span class="bold">Phone:+94 778 280 494</span>
+
                                         </p>
                                     </div>
                                 </div>
@@ -63,22 +62,13 @@
                                     </div>
                                     <div class="media-body">
                                         <h3 class="contact-heading">Make an appointment</h3>
-                                        <div class="call marbot0"><a href="#" class="reverse">+1-234-567-8900</a></div>
+                                        <div class="call marbot0"><a href="#" class="reverse">+94 778 280 494</a></div>
                                     </div>
                                 </div>
                                 <!-- // Appointment -->
                             </div>
 
-                            <div class="col-md-6 marbot30">
-                                <p class="fontresize">
-                                    Sign-up using the form or call us at <span class="bold">+1-234-567-8900</span> to take advantage of this exclusive offer.
-                                </p>
 
-                                <div class="border-seperator"></div>
-                                <p class="fontresize"> Ordering your <span class="bold">contact lenses with no prescription</span> through below button, its very simple. </p>
-
-
-                            </div>
                         </div>
 
                     </div>
@@ -87,43 +77,9 @@
 
 
                 <!-- Section 2 -->
-                <div class="col-md-4">
-                    <div class="panel panel-body panel-dark-grey bottom-right marbot0">
-                        <div class="panel-title">
-                            <h3 class="text-center">Working Hours</h3>
-                        </div>
-                        <p class="fontresize text-center color-light bold">
-                            Open 24 Hours Every Day Of The Year!
-                        </p>
-                        <div class="working-hours working-hours-type1">
-                            <dl class="dl-horizontal">
-                                <dt> Monday </dt>
-                                <dd>08:30 AM - 19:00 PM</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt> Tuesday </dt>
-                                <dd>08:30 AM - 16:00 PM</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt> Wednesday </dt>
-                                <dd>08:30 AM - 17:00 PM</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt> Thursday </dt>
-                                <dd>08:30 AM - 15:00 PM</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt> Friday </dt>
-                                <dd>08:30 AM - 14:30 PM</dd>
-                            </dl>
-                            <dl class="dl-horizontal">
-                                <dt> Sat &amp; Sun </dt>
-                                <dd>Closed</dd>
-                            </dl>
-
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1618.4729574995918!2d79.90192238120102!3d6.746044362822876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae245e948f3f1f9%3A0x97a863c1497603c6!2sEyewithus+Opticals!5e0!3m2!1sen!2slk!4v1507947705277" width="100%" height="285" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
             </div>
             <!-- // Section 2 -->
         </div>
@@ -218,7 +174,7 @@
 
 <!-- Map Section
 ================================================== -->
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d821.5864029730557!2d79.90085682915584!3d6.746959331512622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNDQnNDkuMSJOIDc5wrA1NCcwNS4xIkU!5e1!3m2!1sen!2slk!4v1507279615661" width="100%" height="450" frameborder="0" style="border:0; margin-bottom: -7px" allowfullscreen></iframe>
+
 <!-- // Map Section
 ================================================== -->
 
