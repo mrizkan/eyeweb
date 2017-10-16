@@ -95,14 +95,14 @@
             <div class="container">
                 <div class="row">
                     <!-- Left Section -->
-                    <div class="top-bar-left">
+                    <!--<div class="top-bar-left">
                         <ul class="social-icons clearfix">
                             <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa-youtube"></i></a></li>
                             <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                         </ul>
-                    </div>
+                    </div>-->
                     <!-- Left Section -->
                     <!-- Right Section -->
                     <div class="top-bar-right">
