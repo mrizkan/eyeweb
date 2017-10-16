@@ -3,7 +3,7 @@
 ================================= -->
 
 <!-- Footer Top Strip -->
-<div class="top-strip grey-bg">
+<div class="top-strip ">
     <div class="container">
         <div class="row vertical-align">
 

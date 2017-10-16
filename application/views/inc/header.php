@@ -141,7 +141,7 @@
 
                                         <ul class="dropdown-menu" role="menu">
                                             <?php foreach($categories_menu as $catMenu):  ?>
-                                            <li><a href="<?= base_url('Product/product_category').'/' . $catMenu->CategoryId ?>"><?= $catMenu->CategoryTitle ?></a></li>
+                                            <li><a href="<?= base_url('Products-Category').'/' . $catMenu->CategoryId ?>"><?= $catMenu->CategoryTitle ?></a></li>
                                             <?php endforeach; ?>
 
                                         </ul>

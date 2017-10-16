@@ -150,7 +150,7 @@ class Product extends Front_Controller
         $config["base_url"] = base_url() . "Products/";
         $config["total_rows"] = $this->product->count_by([]);
 
-        $config["per_page"] = 8;
+        $config["per_page"] = 2;
         $config["uri_segment"] = 2;
         $choice = $config["total_rows"] / $config["per_page"];
 //        $config["num_links"] = round($choice);
@@ -191,16 +191,16 @@ class Product extends Front_Controller
 //        $this->db->join('category','product.CategoryId=category.CategoryID');
 //        $this->db->select("product.*,brand.BrandTitle,category.CategoryTitle");
         $d['pages']=round($choice);
-        $d['products'] = $this->product->order_by("Order", "ASC")->get_all();
+        //$d['products'] = $this->product->order_by("Order", "ASC")->get_all();
 
-//        $d["products"] = $this->product->order_by("Order", "ASC")->limit($config["per_page"],($page-1)*16)->get_many_by(['CategoryId'=>$CategoryId]);
+        $d["products"] = $this->product->order_by("Order", "ASC")->limit($config["per_page"],($page-1)*2)->get_all();
         $d["links"] = $this->pagination->create_links();
 
 
         $d['link'] = "";
 //        p(($page));
 
-//        p($this->db->last_query());
+      //  p($this->db->last_query());
 //        p($this->uri->segment(2));
 //        p($CategoryId);
 
@@ -268,7 +268,8 @@ class Product extends Front_Controller
 
     function product_category($CategoryId){
 
-//        p($CategoryId);
+      //  p($CategoryId);
+
 
         $d['total_count'] = $this->product->count_by(['CategoryId'=>$CategoryId]);
 //        p($this->db->last_query());
@@ -280,11 +281,11 @@ class Product extends Front_Controller
 
 
 //        ============================================================================
-        $config["base_url"] = base_url() . "Products/".url_title($this->uri->segment(2)).'/'.$d['one_category']->CategoryId;
+        $config["base_url"] = base_url() . "Products-Category".'/'.$d['one_category']->CategoryId;
         $config["total_rows"] = $this->product->count_by(['CategoryId'=>$CategoryId]);
 
-        $config["per_page"] = 8;
-        $config["uri_segment"] = 4;
+        $config["per_page"] = 1;
+        $config["uri_segment"] = 3;
         $choice = $config["total_rows"] / $config["per_page"];
         $config["num_links"] = round($choice);
 
@@ -300,8 +301,8 @@ class Product extends Front_Controller
 
 
         $this->pagination->initialize($config);
-        $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 1;
-        $d["products"] = $this->product->order_by("Order", "ASC")->limit($config["per_page"],($page-1)*8)->get_many_by(['CategoryId'=>$CategoryId]);
+        $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 1;
+        $d["products"] = $this->product->order_by("Order", "ASC")->limit($config["per_page"],($page-1)*1)->get_many_by(['CategoryId'=>$CategoryId]);
         $d["links"] = $this->pagination->create_links();
 
 
@@ -312,7 +313,7 @@ class Product extends Front_Controller
 
         $d['link'] = "";
 
-//        p($this->db->last_query());
+    //   p($this->db->last_query());
 //        p($this->uri->segment(4));
 //        p($d['total_count']);
 

@@ -90,6 +90,8 @@ $route['Product-Details/(.+)/(.+)'] = 'product/detail/$2';
 
 //$route['Products/(:num)'] = 'product/product_index/$1';
 $route['Products'] = 'product/product_index';
+$route['Products/(.+)'] = 'product/product_index';
+$route['Products-Category/(.+)'] = 'product/product_category/$1';
 
 //$route['Special-Offers/(:num)'] = 'product/special_offer/$1';
 //$route['Special-Offers'] = 'product/special_offer';
