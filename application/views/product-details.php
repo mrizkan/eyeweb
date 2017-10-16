@@ -29,10 +29,10 @@
 <!-- before after Section
 ================================= -->
 
-<section class="before-after-gallery top-bottom-spacing-full grey-bg">
+<section class="before-after-gallery top-bottom-spacing-full bg-wh">
     <div id="content-wrapper">
         <div class="container">
-            <div class="col-md-10 col-md-pull-1 col-md-push-1">
+
                 <div class="row clearfix animatedParent animateOnce">
                     <div class="col-md-6 marbot30-md-xs fadeInLeft animated">
 
@@ -48,7 +48,7 @@
 
                     </div>
 
-                    <div class="col-md-6 fadeInRight animated">
+                    <div class="col-md-6 fadeInRight animated _fg">
                         <h3><?= $details->ProductTitle ?></h3>
                         <p class="fontresize"><?= $details->ShortDescription ?></p>
 
@@ -61,7 +61,7 @@
 
                     </div>
                 </div>
-            </div>
+
         </div>
     </div>
 </section>

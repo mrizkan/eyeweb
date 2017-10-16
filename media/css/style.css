@@ -175,7 +175,9 @@
     .navbar-nav > li:hover > a:before {
         width: 100%;
         content: "\f112";
-        font-family: Flaticon
+        font-family: Flaticon;
+        text-align: center;
+
     }
 
     .dropdown > a:after {
@@ -4265,11 +4267,17 @@ label.error, label.valid {
     .doctors .three-column ul li {
         width: 16.65%
     }
+    ._fg{
+    display: flex;
+}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     .doctors .three-column ul li {
         width: 33.3%
+    }
+    ._fg{
+        display: inline-block;
     }
 }
 
@@ -4280,6 +4288,9 @@ label.error, label.valid {
 
     .top-bottom-spacing {
         padding: 64px 0 24px
+    }
+    ._fg{
+        display: inline-block;
     }
 
     .footer {
@@ -4334,6 +4345,9 @@ label.error, label.valid {
 }
 
 @media (max-width: 480px) {
+    ._fg{
+        display: inline-block;
+    }
     .skew-effect {
         font-size: 25px;
         line-height: 35px
@@ -4419,6 +4433,7 @@ label.error, label.valid {
     .promotion-box .media-right img {
         width: 100%
     }
+
 }
 
 .element, ::i-block-chrome {
@@ -4433,4 +4448,11 @@ label.error, label.valid {
     .before-after .bx-caption {
         min-width: 100px
     }
+    ._fg{
+        display: inline-block;
+    }
+}
+
+.bg-w{
+    background: #fff;
 }
