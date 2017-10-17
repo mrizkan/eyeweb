@@ -1868,7 +1868,7 @@ ul {
     bottom: 0;
     right: 0;
     z-index: 2;
-    background: url(/media/images/pentagon-mask-white.png) no-repeat;
+    background: url(../images/pentagon-mask-white.png) no-repeat;
     -webkit-transition: -webkit-transform .3s ease-out;
     -moz-transition: -moz-transform .3s ease-out;
     -o-transition: -o-transform .3s ease-out;
@@ -1881,17 +1881,17 @@ ul {
 }
 
 section.grey-bg .pentagon .mask:before, section:nth-child(odd) .pentagon .mask:before {
-    background: url(/media/images/pentagon-mask-grey.png) no-repeat;
+    background: url(../images/pentagon-mask-grey.png) no-repeat;
     background-size: contain
 }
 
 section .panel-body .pentagon .mask:before, section:nth-child(odd) .panel-body .pentagon .mask:before {
-    background: url(/media/images/pentagon_mask-white.png) no-repeat;
+    background: url(../images/pentagon_mask-white.png) no-repeat;
     background-size: contain
 }
 
 section:nth-child(odd).white-bg .pentagon .mask:before {
-    background: url(/media/images/pentagon-mask-white.png) no-repeat;
+    background: url(../images/pentagon-mask-white.png) no-repeat;
     background-size: contain
 }
 
@@ -1955,11 +1955,11 @@ section:nth-child(odd).white-bg .pentagon .mask:before {
 }
 
 .bg-color-img-01 {
-    background: url(/media/images/square01.jpg) no-repeat
+    background: url(../images/square01.jpg) no-repeat
 }
 
 .bg-color-img-02 {
-    background: url(/media/images/square04.jpg) no-repeat
+    background: url(../images/square04.jpg) no-repeat
 }
 
 [class*=bg-color-img] {
@@ -2049,12 +2049,12 @@ section:nth-child(odd).white-bg .pentagon .mask:before {
 }
 
 .left-banner-bg {
-    background: url(/media/images/center-banner-image-full-01.jpg);
+    background: url(../images/center-banner-image-full-01.jpg);
     background-size: cover
 }
 
 .right-banner-bg {
-    background: url(/media/images/center-banner-image-full-02.jpg);
+    background: url(../images/center-banner-image-full-02.jpg);
     background-size: cover
 }
 
@@ -2332,7 +2332,7 @@ section:nth-child(odd).white-bg .pentagon .mask:before {
 }
 
 .banner {
-    background: url(/media/images/home-slider/banner01.jpg) center right no-repeat;
+    background: url(../images/home-slider/banner01.jpg) center right no-repeat;
     background-size: cover;
     position: relative;
     height: 580px
@@ -2502,43 +2502,43 @@ section:nth-child(odd).white-bg .pentagon .mask:before {
 }
 
 .subbanner-pattern-01 {
-    background: url(/media/images/pattern/subbanner-pat01.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat01.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-02 {
-    background: url(/media/images/pattern/subbanner-pat02.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat02.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-03 {
-    background: url(/media/images/pattern/subbanner-pat03.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat03.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-04 {
-    background: url(/media/images/pattern/subbanner-pat04.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat04.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-05 {
-    background: url(/media/images/pattern/subbanner-pat05.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat05.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-06 {
-    background: url(/media/images/pattern/subbanner-pat06.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat06.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-07 {
-    background: url(/media/images/pattern/subbanner-pat07.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat07.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-08 {
-    background: url(/media/images/pattern/subbanner-pat08.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat08.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-09 {
-    background: url(/media/images/pattern/subbanner-pat09.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat09.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-pattern-10 {
-    background: url(/media/images/pattern/subbanner-pat10.png) fixed rgba(8, 44, 70, .99)
+    background: url(../images/pattern/subbanner-pat10.png) fixed rgba(8, 44, 70, .99)
 }
 
 .subbanner-type-2-btn .banner-strip {
@@ -3250,11 +3250,11 @@ input.btn {
 }
 
 .grey-bg.contact-bg {
-    background: url(/media/images/contact-map.png) top center no-repeat rgba(232, 232, 232, .9) !important
+    background: url(../images/contact-map.png) top center no-repeat rgba(232, 232, 232, .9) !important
 }
 
 .white-bg.contact-bg {
-    background: url(/media/images/contact-map.png) top center no-repeat rgba(247, 247, 247, .9) !important
+    background: url(../images/contact-map.png) top center no-repeat rgba(247, 247, 247, .9) !important
 }
 
 .contact-heading {
@@ -3335,7 +3335,7 @@ input.btn {
 
 #foot_top {
     padding: 0;
-    background: url(/media/images/map.png) fixed rgba(244, 244, 244, .3);
+    background: url(../images/map.png) fixed rgba(244, 244, 244, .3);
     color: #333;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -3354,7 +3354,7 @@ input.btn {
 
 #foot_top:hover {
     color: #f4f4f4;
-    background: url(/media/images/map.png) fixed rgba(50, 76, 115, 1)
+    background: url(../images/map.png) fixed rgba(50, 76, 115, 1)
 }
 
 .foot_icon {
@@ -3593,7 +3593,7 @@ td.treatment-name {
 }
 
 .center-banner {
-    background: url(/media/images/center-banner.jpg) right center no-repeat;
+    background: url(../images/center-banner.jpg) right center no-repeat;
     color: #222
 }
 
@@ -3718,7 +3718,7 @@ td.treatment-name {
 }
 
 .offer01 {
-    background: url(/media/images/offer01.jpg) center;
+    background: url(../images/offer01.jpg) center;
     background-size: cover;
     height: 200px;
     width: 100%;

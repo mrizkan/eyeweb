@@ -155,7 +155,7 @@
             //  e.preventDefault();
             $.ajax({
                 type: "POST",
-                url: '<?= base_url()?>/home/ajax_mail',
+                url: '<?= base_url('Home/contact_us') ?>',
                 data: $(this).serialize(), // serializes the form's elements.
                 success: function(data)
                 {
