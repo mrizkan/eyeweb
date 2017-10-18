@@ -77,7 +77,7 @@
                 <!-- Section 1 -->
                 <div class="col-md-4 marbot10">
                     <h1>
-                        <span class="fw-normal">Improve your Vision with </span>Eye with Us
+                        <span class="fw-normal">Improve your Vision with </span>Eye with Us Opticals
                     </h1>
                 </div>
                 <!-- // Section 1 -->
@@ -85,26 +85,59 @@
                 <div class="col-md-8">
                     <div class="row marbot20">
                         <!-- Section 2 -->
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <p class="fontresize">
-                                We offers a complete range of eye care services including LASIK and PRK refractive surgery, eye exams, vision testing for glasses and contacts.
+                                <h1><span class="fw-normal">Optometry Clinic & Optical Shop</span></h1>
+                                Whether you have the Eye with Us Opticls, Eye med, Vision Service Plan or are Private pay, you can shedule an appointment with us for a comprehensive eye examination and/or have your eyeglass or contact lens prscriptions filled at our optical shop.
                             </p>
-                            <p class="fontresize">
-                                All Laser Lasik, Cornea &amp; Glaucoma, Laser Cataract Surgery, Brow lift services.
-                            </p>
+
+
                         </div>
+
                         <!-- // Section 2 -->
 
                         <!-- Section 3 -->
-                        <div class="col-md-6">
+                       <!-- <div class="col-md-6">
                             <p class="fontresize">
                                 Cornea is the eye’s outermost layer. It is the clear, dome-shaped surface that covers the front of the eye.
                             </p>
                             <p class="fontresize">
                                 Glaucoma is slowly damages the eyes and can causes vision loss.
                             </p>
-                        </div>
+                        </div>-->
                         <!-- // Section 3 -->
+                    </div>
+                </div>
+                <div class="col-md-4 marbot10">
+                    <img src="<?= base_url('media/images/') ?>aaa.jpg" alt=" " class="img-responsive">
+                </div>
+                <div class="col-md-8">
+                    <div class="row marbot20">
+                        <div class="col-md-6">
+                            <p class="fontresize">
+                            <h1><span class="fw-normal">Optician</span></h1>
+                            An <b>Optician</b>, or dispensing optician, is a technical practitioner who designs, fits and dispenses corrective lenses for the correction of a person's vision. <b>Opticians</b> determine the specifications of various ophthalmic appliances that will give the necessary correction to a preson's eyesight.
+                            </p>
+
+
+                        </div>
+                        <div class="col-md-6">
+                            <p class="fontresize">
+                            <h1><span class="fw-normal">Optometrist</span></h1>
+                            An <b>Optometrist</b> is an eye doctor who has earned the Doctor of <b>Optometry</b>(OD) degree.<b>Optometrists</b> examine eyes for both vison and health problems, incorect reflective errors by prescribing eyeglasses and contact lenses. Some <b>Optometrists</b> also provide low vision care and vision therapy. Recomended for You.
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row marbot20">
+                        <p class="fontresize">
+                        <h1><span class="fw-normal">Optometry Clinic</span></h1>
+                        You may be Surprised to learn that yearly eye exams are an easy and important way to protect your eyes and overall health. A routine eye examination can help detect signs of serious health conditions, such as diabetes, high blood pressure , high cholesterol, autoimmune disorders, and even some cancers/tumors.<br>
+                        Periodic eye and vision examinations are an important part of preventive health care. Many eye and vision problems have no obvious signs or symptoms. As a result, individuals are often unaware that problems exist. Early diagnosis and treatment of eye and vision problems are important for maintaining good vision and eye health, and when possible preventing vision loss.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -125,14 +158,14 @@
                         <div class="hover-content cta-content">
                             <div class="pentagon">
                                 <div class="mask mask-img mask-img-xs transition marbot10 center-block">
-                                    <img src="<?= base_url('media/images/') ?>square01.jpg" alt=" " class="img-responsive">
+                                    <img src="<?= base_url('media/images/') ?>square011.jpg" alt=" " class="img-responsive">
                                 </div>
                             </div>
-                            <h4>Cornea &amp; Glaucoma</h4>
+                            <h4>Common Vision Problems</h4>
 
                         </div>
                         <p class="fontresize">
-                            Cornea is the eye’s outermost layer. It is the clear, dome-shaped surface that covers the front of the eye.
+                            The Most Common vision problems are reflective errors, more commonly known as nearsightedness, farsightedness, astigmatism and presbyopia.<!-- Reflective errors occur when the shape of the eye prevents light from focusing directly on the retina. The lenght of the eyeball (either longer or shorter), changes in the shape of the cornea, or aging of the lens can cause refreactive errors. Most people have one or more of these conditions.-->
                         </p>
 
 
@@ -144,14 +177,14 @@
                         <div class="hover-content cta-content">
                             <div class="pentagon">
                                 <div class="mask mask-img mask-img-xs transition marbot10 center-block">
-                                    <img src="<?= base_url('media/images/') ?>square01.jpg" alt=" " class="img-responsive">
+                                    <img src="<?= base_url('media/images/') ?>square012.jpg" alt=" " class="img-responsive">
                                 </div>
                             </div>
-                            <h4>Cornea &amp; Glaucoma</h4>
+                            <h4>Low vision</h4>
 
                         </div>
                         <p class="fontresize">
-                            Cornea is the eye’s outermost layer. It is the clear, dome-shaped surface that covers the front of the eye.
+                            Low vision is a visual impairment, not correctable by standard glasses, contact lenses, medicine, or surgery, that interferes with a person's ability to perform everyday activities.
                         </p>
 
 
@@ -164,14 +197,14 @@
                         <div class="hover-content cta-content">
                             <div class="pentagon">
                                 <div class="mask mask-img mask-img-xs transition marbot10 center-block">
-                                    <img src="<?= base_url('media/images/') ?>square02.jpg" alt=" " class="img-responsive">
+                                    <img src="<?= base_url('media/images/') ?>square04.jpg" alt=" " class="img-responsive">
                                 </div>
                             </div>
-                            <h4>All Laser Lasik</h4>
+                            <h4>Refraction</h4>
 
                         </div>
                         <p class="fontresize">
-                            LASIK and PRK refractive surgery, eye exams, vision testing for glasses and contacts.
+                            Refraction is the bending of light as it passes through one object to another. Vision occurs when light rays are bent (refracted) as they pass through the cornea and the lens.<!-- The light is then focused on the retina. The retina converts the light-rays into messages that are sent through the optic nerve to the brain. The brain interprets these messages into the images we see.-->
                         </p>
                     </div>
                 </div>
@@ -182,14 +215,14 @@
                         <div class="hover-content cta-content">
                             <div class="pentagon">
                                 <div class="mask mask-img mask-img-xs transition marbot10 center-block">
-                                    <img src="<?= base_url('media/images/') ?>square04.jpg" alt=" " class="img-responsive">
+                                    <img src="<?= base_url('media/images/') ?>square55.jpg" alt=" " class="img-responsive">
                                 </div>
                             </div>
-                            <h4>Laser Cataract Surgery</h4>
+                            <h4>common eye disease and disorders</h4>
 
                         </div>
                         <p class="fontresize">
-                            We are fully equipped with the most modern technology for performing sutureless cataract surgeries.
+                           Glaucoma Cataract, Keratitis, Allergic Conjunctivitis, Sclerits, Iritis, Pterygium, Chazion, Pinkeys, Diabetic Retinopathy, Caratoconus.
                         </p>
                     </div>
                 </div>
@@ -218,38 +251,28 @@
                         <div class="center-banner-title"><?=$offer->ShortDescription ?></div>
                     </div>
                             <?php endforeach ?>
-                    <a href="Contact-Us" class="btn btn-type1 btn-big text-uppercase growIn animated slowest">Schedule your free exam today <i class="fa fa-fw fa-chevron-right"></i></a>
+                    <a href="<?= base_url('Products') ?>" class="btn btn-type1 btn-big text-uppercase growIn animated slowest">See Our Products <i class="fa fa-fw fa-chevron-right"></i></a>
                     <div class="row">
-                        <div class="col-md-4 media marbot10">
-                            <div class="media-left">
-                                <i class="fa flaticon-medical-21 circle-icon"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="marbot10">Patient Care</h4>
-                                <p class="fontresize">
-                                    Both of our surgeons and most of our staff have had LASIK.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 media marbot10">
-                            <div class="media-left">
-                                <i class="fa flaticon-hospital circle-icon"></i>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="marbot10">Local Care</h4>
-                                <p class="fontresize">
-                                    We work with over 400 optometrists across the Northwest.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 media marbot10">
+
+                        <div class="col-md-6 media marbot10">
                             <div class="media-left">
                                 <i class="fa flaticon-medical-8 circle-icon"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="marbot10">Experience</h4>
+                                <h4 class="marbot10">Our Vision</h4>
                                 <p class="fontresize">
-                                    Our surgeons have performed over 100,000 LASIK.
+                                    We hope to make Perfectible Vision to each and other.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 media marbot10">
+                            <div class="media-left">
+                                <i class="fa flaticon-medical-8 circle-icon"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="marbot10">Our Mission</h4>
+                                <p class="fontresize">
+                                   Customer Satisfy with Honesty and integrity.
                                 </p>
                             </div>
                         </div>

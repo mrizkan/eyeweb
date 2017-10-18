@@ -3,7 +3,8 @@
     <!-- Banner Section
     ================================= -->
 
-    <section class="animatedParent animateOnce subbanner subbanner-image subbanner-pattern-02 subbanner-type-2 subbanner-type-2-btn">
+    <section
+            class="animatedParent animateOnce subbanner subbanner-image subbanner-pattern-02 subbanner-type-2 subbanner-type-2-btn">
         <div class="container">
             <div class="subbanner-content banner-content">
                 <div class="skew-effect fadeInLeft animated">
@@ -24,7 +25,6 @@
     ================================= -->
 
 
-
     <section class="hospital top-bottom-spacing white-bg">
         <div class="container">
             <div class="row">
@@ -33,74 +33,72 @@
                     <!-- Left Content -->
                     <div class="col-md-5">
                         <div class="heading text-center">
-                            <p class="lead lead-lg"> We offers a complete range of eye care services including <strong  class="color-light"> LASIK </strong>&amp; <strong  class="color-light"> PRK </strong> surgery.
+                            <p class="lead lead-lg"> Welcome to <strong class="color-light">Optometry Clinic & Optical
+                                    Shop</strong>.
                             </p>
                         </div>
 
                         <div class="clearfix">
-                            <h3>Our Mission</h3>
-                            <p class="fontresize marbot30"> Clear Eye care services to everyone with affordable expense, which will be matched new technology with high quality products which must exeed market trends. Lorem ipsum dolor sit amet, consectetur elit mauris sed sem purus nunc eros congue.
-                            </p>
 
-                            <h3>Our Vision </h3>
-                            <p class="fontresize"> Every Life on earth has a right to see this world, there are so many colors, so many beautiful lights, beautiful nature scene to see and enjoy the experience. This right is to all the living beings on earth.
-                            </p>
-                            <p class="fontresize"> Lorem ipsum dolor sit amet, consectetur elit mauris sed sem purus nunc eros congue.
-                            </p>
+                            <p class="fontresize marbot30"><b>Eye with us optical Center</b> is Happy to offer the
+                                services of
+                                an optical shop to our patients and to the public. As with all the services we provide,
+                                the quality of care you receive is our focus. Whether you need New eye glasses for
+                                everyday living, New Sun Glasses, or glasses for specific tasks such as for the
+                                computer, The Optical shops's optician will spend time with you to help you choose eye
+                                wear that needs your needs and is best for you. Th Visioffice 3D measuring device used
+                                in the optical allws for precise measurements to be made for lens manufacturing. </p>
+
 
                         </div>
                     </div>
+
                     <!-- Left Content -->
 
                     <!-- Right Content -->
-                    <div class="col-md-6 col-md-offset-1 animatedParent animateOnce" data-sequence='250' data-appear-top-offset='-300'>
+                    <div class="col-md-6 col-md-offset-1 animatedParent animateOnce" data-sequence='250'
+                         data-appear-top-offset='-300'>
                         <div class="row marbot10">
                             <div class="clearfix">
-                                <div class="col-md-6 col-sm-6 fadeInRight animated" data-id='1'>
-                                    <a href="<?= base_url('media/images/') ?>square01.jpg" data-toggle="lightbox" data-gallery="about-gallery" data-title="Eyecare Services" data-footer=" LASIK & PRK surgery, eye exams, vision testing for glasses and contacts">
-                                        <div class="grid image-effect2 marbot30">
-                                            <figure>
-                                                <img src="<?= base_url('media/images/') ?>square01.jpg" alt=" " class="img-responsive fullwidth">
-                                                <figcaption><i class="fa flaticon-symbols-1 gallery-icon transition"></i></figcaption>
-                                            </figure>
-                                        </div>
-                                    </a>                    </div>
+                                <div class="col-md-12 col-sm-12 fadeInRight animated" data-id='1'>
 
-                                <div class="col-md-6 col-sm-6 fadeInRight animated" data-id='2'>
-                                    <a href="<?= base_url('media/images/') ?>square02.jpg" data-toggle="lightbox" data-gallery="about-gallery" data-title="Our Mission" data-footer="Clear Eye care services to everyone with affordable expense">
-                                        <div class="grid image-effect2 marbot30">
-                                            <figure>
-                                                <img src="<?= base_url('media/images/') ?>square02.jpg" alt=" " class="img-responsive fullwidth">
-                                                <figcaption><i class="fa flaticon-symbols-1 gallery-icon transition"></i></figcaption>
-                                            </figure>
-                                        </div>
-                                    </a>                    </div>
-                            </div>
+                                    <div class="grid image-effect2 marbot30">
+                                        <figure>
+                                            <img src="<?= base_url('media/images/') ?>about.jpg" alt=" "
+                                                 class="img-responsive fullwidth">
 
-                            <div class="clearfix">
-                                <div class="col-md-6 col-sm-6 fadeInRight animated" data-id='3'>
-                                    <a href="<?= base_url('media/images/') ?>square03.jpg" data-toggle="lightbox" data-gallery="about-gallery" data-title="Our Vision" data-footer="Every Life on earth has a right to see this world, there are so many colors, so many beautiful lights, beautiful nature scene to see and enjoy the experience">
-                                        <div class="grid image-effect2 marbot30">
-                                            <figure>
-                                                <img src="<?= base_url('media/images/') ?>square03.jpg" alt=" " class="img-responsive fullwidth">
-                                                <figcaption><i class="fa flaticon-symbols-1 gallery-icon transition"></i></figcaption>
-                                            </figure>
-                                        </div>
-                                    </a>                    </div>
+                                        </figure>
+                                    </div>
+                                </div>
 
-                                <div class="col-md-6 col-sm-6 fadeInRight animated" data-id='4'>
-                                    <a href="<?= base_url('media/images/') ?>square04.jpg" data-toggle="lightbox" data-gallery="about-gallery" data-title="Specialized in Eyecare Services" data-footer="We have specialized doctors and specialized technology which can be customized to suit your unique eye needs.">
-                                        <div class="grid image-effect2 marbot30">
-                                            <figure>
-                                                <img src="<?= base_url('media/images/') ?>square04.jpg" alt=" " class="img-responsive fullwidth">
-                                                <figcaption><i class="fa flaticon-symbols-1 gallery-icon transition"></i></figcaption>
-                                            </figure>
-                                        </div>
-                                    </a>                    </div>
+
                             </div>
                         </div>
                     </div>
                     <!-- Right Content -->
+
+                    <div class="col-md-6" style="float: right;">
+                        <div class="clearfix"><br><br>
+
+
+                            <p class="fontresize marbot30"><b>Lenses</b><br> There are many Lense materials, Types and
+                                coatings available to in hands vision. Including CR39, MULTICODED, BLUE CUT, BLUE CODE,
+                                BY FOCAL, PROGRESSIVE, PHOTO GRAY, CRIZAL, ZIES and many more. The following lenses are
+                                available through the <b>Eye with us Opticals Center</b></p>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="float: left">
+
+
+                        <p class="fontresize marbot30"><b>Frames</b><br>We offer a wide selection of eye glass frames
+                            with over 500 Traditional and Designer styles, Including PRADA, GUCCI, Ray Ban, Tommy
+                            Hilfiger, Police, Okley, Mont Blong and many more. Our experience Optician and Optomatry
+                            will help you to select the frame shape, size and color that looks best on you.</p>
+
+
+                    </div>
 
                 </div>
 
@@ -123,18 +121,20 @@
                         <div class="col-md-6 marbot40">
                             <div class="grid image-effect2 text-center">
 
-                                    <figure>
-                                        <img src="<?= base_url('media/images/') ?>chief-doctors.jpg" alt=" " class="img-responsive">
+                                <figure>
+                                    <img src="<?= base_url('media/images/') ?>rizwan.jpg" alt=" "
+                                         class="img-responsive">
 
-                                    </figure>
-                                                        </div>
+                                </figure>
+                            </div>
                             <div class="panel panel-body marbot0 text-center doctor-details">
-                                <h3 class="marbot0">Steve Williams</h3>
-                                <p class="fontresize marbot20 color-light"><em><span class="fw-500"> Doctor of Ophthalmologist </span></em></p>
+                                <h3 class="marbot0">Rizwan M. M. M.</h3>
+                                <p class="fontresize marbot20 color-light"><em><span class="fw-500"> Doctor of Eye with Us Opticals </span></em>
+                                </p>
                                 <ul class="social-icons-simple social-bg-grey clearfix">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a href="https://www.facebook.com/eyewithus/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+
+                                    <li><a href="https://www.youtube.com/channel/UCg0ROKOFsQM1_dgXl8Wzl1Q" target="_blank"><i class="fa fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -142,12 +142,13 @@
                         <!-- Content -->
                         <div class="col-md-6 marbot40">
                             <div class="story">
-                                <h2 class="marbot20">Our Medical Director</h2>
-                                <p class="lead color-light marbot30">Dr. Steve Williams, M.B.B.S., D.N.B., <span class="marbot30">SICS (manual phako), Botox, Ptosis, Oculoplasty, Pterygium, DCR surgeries</span>.</p>
+                                <h2 class="marbot20">Our OPTICIAN & OPTOMATRY</h2>
+                                <p class="lead color-light marbot30">Rizwan M. M. M.<span class="marbot30"><br>Opticion/Opthametrist (Optht)<br>Reg No. CDO -14-17<br> Eye Care Institute<br>College of Optometry and Visual Science<br>Sri Lanka</span>
+                                </p>
 
-                                <p class="fontresize marbot30">His 20 years of experience enables him to provide excellent care to our residents. Dr. Steve  is a member of the Medical Advisory Board at NJ. He is an expert in SICS (manual phako), Botox, Ptosis, Oculoplasty, Pterygium, DCR surgeries.</p>
+                                <p class="fontresize marbot30">Rizwan M. M. M. is Optician and Opthametrist at Eye with Us Optical Center. He is bord certify by the Optomethry Association of Sri Lanka, He has been in the optical business since 2009. His years of Experience in the ooptical business allow him to provide our optical customers with the highest quality optical service and advice.</p>
 
-                                <p class="fontresize"> Specialize in curing the most complex conditions related to eyes and guarantee a positive change in your life after the treatment, Clear Eye care services to everyone with affordable expense, which will be matched new technology with high quality products which must exeed market trends.</p>
+
                                 <img src="<?= base_url('media/images/') ?>sign.png" alt=" ">
                             </div>
                         </div>
@@ -160,14 +161,6 @@
 
     <!-- // Doctors Section
     ================================================== -->
-
-
-
-
-
-
-
-
 
 
 <?php $this->view('inc/footer.php'); ?>

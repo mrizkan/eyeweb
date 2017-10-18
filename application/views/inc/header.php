@@ -116,7 +116,7 @@
                     <!-- Right Section -->
                 </div>
             </div>
-            <span class="close fa fa-chevron-down"></span>    </div>
+                </div>
         <!--  // Top bar -->
 
         <!-- Menu Sections -->
