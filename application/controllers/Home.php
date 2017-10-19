@@ -311,6 +311,69 @@ class Home extends Front_Controller
     }
 
 //    ====================================================================================================
+    public function appointment_mail()
+    {
+        $d['name'] = "";
+        $d['email'] = "";
+        $d['subject'] = "";
+        $d['phone'] = "";
+        $d['comment'] = "";
+
+        if ($this->input->post()) {
+
+            $this->form_validation->set_rules('name', 'Name', 'required');
+            $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
+            $this->form_validation->set_rules('message', 'Message', 'required');
+//            $this->form_validation->set_rules('form_phone', 'Phone', 'numeric');
+            if ($this->form_validation->run()) {
+//                p('02');
+                $this->load->library('email');
+                $config['mailtype'] = 'html';
+
+                $this->email->initialize($config);
+                $this->email->to(email);
+                $this->email->from($this->input->post('email'), $this->input->post('name'));
+                $this->email->subject(TITLE . " - Contact Us Form");
+                $msg = '<html><body>';
+                $msg .= '<img src="' . base_url() . 'media/images/logo.png" alt="' . TITLE . '" />';
+                $msg .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
+                $msg .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($this->input->post('name')) . "</td></tr>";
+                $msg .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($this->input->post('email')) . "</td></tr>";
+
+                $msg .= "<tr><td><strong>Messaeg:</strong> </td><td>" . strip_tags($this->input->post('message')) . "</td></tr>";
+                $msg .= "</table>";
+                $msg .= "</body></html>";
+
+                $this->email->message($msg);
+                $this->email->send();
+
+                echo "success";
+                //  $this->view('contact_us', $d);
+            } else {
+                $d['name'] = $this->input->post('form_name');
+                $d['email'] = $this->input->post('form_email');
+                $d['subject'] = $this->input->post('form_subject');
+                $d['phone'] = $this->input->post('form_phone');
+                $d['comment'] = $this->input->post('form_message');
+
+                $d['message'] = "<div class='alert alert-danger' style='color: green'>Validation errors occurred....!<br/> Please confirm the fields and submit again.</div>";
+                echo"there is a problem";
+                // $this->view('contact_us', $d);
+            }
+        } else {
+
+            $this->view('contact_us', $d);
+//            $this->load->view('contacts');
+        }
+
+//        $this->view('contact_us');
+    }
+
+//    ====================================================================================================
+
+
+
+
     public function services()
     {
         $this->view('service');

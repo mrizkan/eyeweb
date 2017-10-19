@@ -179,11 +179,11 @@
                             //  e.preventDefault();
                             $.ajax({
                                 type: "POST",
-                                url: '<?= base_url()?>/home/ajax_appointment',
+                                url: '<?= base_url('Home/appointment_mail') ?>',
                                 data: $(this).serialize(), // serializes the form's elements.
                                 success: function(data)
                                 {
-                                    $('#status').html('<p  class="fontresize text-center color-light bold">Appointment Request Success, We will Contact you Soon</p>');
+                                    $('#status').html('<p  class="fontresize text-center color-light bold">Appointment Request Sent, We will Call back.</p>');
                                     $('#appointmentform')[0].reset();
                                 }
                             });
