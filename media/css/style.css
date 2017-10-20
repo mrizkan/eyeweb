@@ -641,7 +641,7 @@
 }
 
 .element {
-    width: 25%;
+
     padding: 10px;
     vertical-align: top
 }
@@ -4462,6 +4462,6 @@ label.error, label.valid {
 .bg-w{
     background: #fff;
 }
-.laser-eye-surgery{
+/*.laser-eye-surgery{
     min-height: 390px;
-}
+}*/

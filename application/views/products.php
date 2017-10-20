@@ -31,11 +31,13 @@
         <div class="container">
 
 
-            <div id="" class="clearfix">
+            <div class="col-md-12">
                             <?php foreach ($products as $b_data): ?>
+                            <div class="col-md-3">
                 <!-- Accura Item 1 -->
                 <div class="element transition laser-eye-surgery" data-category="laser-eye-surgery" >
                     <figure>
+
                         <div class="before-after">
                             <div><img src="<?= UP . $b_data->Image ?>" alt=" "/></div>
                             <div class="view-gallery-wrapper">
@@ -47,37 +49,24 @@
                             <h3> <a href="<?= base_url('Product/detail') . '/' . $b_data->ProductId ?>"><?= $b_data->ProductTitle ?></a></h3>
 
                         </figcaption>
+
                     </figure>
                 </div>
                 <!-- // Accura Item 1 -->
+                            </div>
+
                             <?php endforeach; ?>
+</div>
 
 
-
-            </div> <!-- #portfolio -->
+          <!-- #portfolio -->
 
             <!-- Pagination -->
             <nav class="text-center">
                 <ul class="pagination pagination-lg">
                 <?= $links ?>
                     </ul>
-<!--                <ul class="pagination pagination-lg">-->
-<!--                    <li>-->
-<!--                        <a href="#" aria-label="Previous">-->
-<!--                            <span aria-hidden="true">&laquo;</span>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                    <li class="active"><a href="#">1</a></li>-->
-<!--                    <li><a href="#">2</a></li>-->
-<!--                    <li><a href="#">3</a></li>-->
-<!--                    <li><a href="#">4</a></li>-->
-<!--                    <li><a href="#">5</a></li>-->
-<!--                    <li>-->
-<!--                        <a href="#" aria-label="Next">-->
-<!--                            <span aria-hidden="true">&raquo;</span>-->
-<!--                        </a>-->
-<!--                    </li>-->
-<!--                </ul>-->
+<!--
             </nav>
             <!-- // Pagination -->
         </div>
