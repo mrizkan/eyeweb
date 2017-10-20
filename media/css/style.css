@@ -648,7 +648,7 @@
 
 .element figcaption {
     background: #f4f4f4;
-    padding: 25px
+    padding: 4px
 }
 
 .three-column .element {
@@ -669,6 +669,7 @@
     #portfolio .element {
         width: 100%
     }
+
 }
 
 .top-bar {
@@ -894,6 +895,11 @@
     .top-bar.top-bar-white .right-top li {
         border-left: 1px solid #e7e7e7;
         border-bottom: 1px solid #e7e7e7
+    }
+    .element {
+        width: 100%;
+        padding: 10px;
+        vertical-align: top;
     }
 }
 
