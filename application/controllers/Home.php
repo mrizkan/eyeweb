@@ -280,8 +280,9 @@ class Home extends Front_Controller
                 $msg .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
                 $msg .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($this->input->post('name')) . "</td></tr>";
                 $msg .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($this->input->post('email')) . "</td></tr>";
+                $msg .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($this->input->post('phone')) . "</td></tr>";
 
-                $msg .= "<tr><td><strong>Messaeg:</strong> </td><td>" . strip_tags($this->input->post('message')) . "</td></tr>";
+                $msg .= "<tr><td><strong>Message:</strong> </td><td>" . strip_tags($this->input->post('message')) . "</td></tr>";
                 $msg .= "</table>";
                 $msg .= "</body></html>";
 
@@ -313,17 +314,18 @@ class Home extends Front_Controller
 //    ====================================================================================================
     public function appointment_mail()
     {
-        $d['name'] = "";
-        $d['email'] = "";
-        $d['subject'] = "";
+        $d['firstname'] = "";
+        $d['lastname'] = "";
         $d['phone'] = "";
-        $d['comment'] = "";
+        $d['dt'] = "";
+        $d['message'] = "";
+        $d['consulting'] = "";
+        $d['email'] = "abc@gmail.com";
 
         if ($this->input->post()) {
 
-            $this->form_validation->set_rules('name', 'Name', 'required');
-            $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
-            $this->form_validation->set_rules('message', 'Message', 'required');
+            $this->form_validation->set_rules('firstname', 'firstname', 'required');
+
 //            $this->form_validation->set_rules('form_phone', 'Phone', 'numeric');
             if ($this->form_validation->run()) {
 //                p('02');
@@ -332,15 +334,17 @@ class Home extends Front_Controller
 
                 $this->email->initialize($config);
                 $this->email->to(email);
-                $this->email->from($this->input->post('email'), $this->input->post('name'));
-                $this->email->subject(TITLE . " - Contact Us Form");
+                $this->email->from($this->input->post('firstname'));
+                $this->email->subject(TITLE . " - eye Appointment");
                 $msg = '<html><body>';
                 $msg .= '<img src="' . base_url() . 'media/images/logo.png" alt="' . TITLE . '" />';
                 $msg .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
-                $msg .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($this->input->post('name')) . "</td></tr>";
-                $msg .= "<tr><td><strong>Email:</strong> </td><td>" . strip_tags($this->input->post('email')) . "</td></tr>";
+                $msg .= "<tr style='background: #eee;'><td><strong>Name:</strong> </td><td>" . strip_tags($this->input->post('firstname')) . strip_tags($this->input->post('lastname')) . "</td></tr>";
+                $msg .= "<tr><td><strong>Phone:</strong> </td><td>" . strip_tags($this->input->post('phone')) . "</td></tr>";
+                $msg .= "<tr><td><strong>Date:</strong> </td><td>" . strip_tags($this->input->post('dt')) . "</td></tr>";
 
-                $msg .= "<tr><td><strong>Messaeg:</strong> </td><td>" . strip_tags($this->input->post('message')) . "</td></tr>";
+                $msg .= "<tr><td><strong>Consulting:</strong> </td><td>" . strip_tags($this->input->post('consulting')) . "</td></tr>";
+                $msg .= "<tr><td><strong>Message:</strong> </td><td>" . strip_tags($this->input->post('message')) . "</td></tr>";
                 $msg .= "</table>";
                 $msg .= "</body></html>";
 
