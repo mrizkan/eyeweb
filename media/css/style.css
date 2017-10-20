@@ -1964,6 +1964,10 @@ section:nth-child(odd).white-bg .pentagon .mask:before {
     background: url(../images/square01.jpg) no-repeat
 }
 
+.bg-color-img-99 {
+    background: url(../images/service001.jpg) no-repeat
+}
+
 .bg-color-img-02 {
     background: url(../images/square04.jpg) no-repeat
 }

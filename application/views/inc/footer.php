@@ -11,7 +11,7 @@
                 <div class="text-center marbot0 media">
                     <span class="media-left"><i class="fa fa-phone icon-bordered"></i></span>
                         <span class="media-body text-left media-middle">
-                            If you Have Any Questions Call Us On <a href="javascript: void(0)"><span class="bold">+94 778 280 494</span></a>
+                            For Inquires <a href="javascript: void(0)"><span class="bold">+94 778 280 494</span></a>
                         </span>
                 </div>
             </div>

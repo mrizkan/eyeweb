@@ -320,7 +320,7 @@ class Home extends Front_Controller
         $d['dt'] = "";
         $d['message'] = "";
         $d['consulting'] = "";
-        $d['email'] = "abc@gmail.com";
+
 
         if ($this->input->post()) {
 
@@ -334,8 +334,8 @@ class Home extends Front_Controller
 
                 $this->email->initialize($config);
                 $this->email->to(email);
-                $this->email->from($this->input->post('firstname'));
-                $this->email->subject(TITLE . " - eye Appointment");
+                $this->email->from(email,$this->input->post('firstname'));
+                $this->email->subject(TITLE . " - Eye Appointment");
                 $msg = '<html><body>';
                 $msg .= '<img src="' . base_url() . 'media/images/logo.png" alt="' . TITLE . '" />';
                 $msg .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
@@ -349,7 +349,15 @@ class Home extends Front_Controller
                 $msg .= "</body></html>";
 
                 $this->email->message($msg);
-                $this->email->send();
+
+                if ($this->email->send()){
+                    echo "success";
+                }
+                else{
+                    echo "error";
+
+                }
+
 
                 echo "success";
                 //  $this->view('contact_us', $d);

@@ -35,7 +35,7 @@
     <section>
         <div class="container-fluid sec-small">
             <div class="row animatedParent animateOnce">
-                <div class="col-md-6 bg-color-img-01 fadeInUp animated">
+                <div class="col-md-6 bg-color-img-99 fadeInUp animated">
                     <div class="clearfix"></div>
                 </div>
 

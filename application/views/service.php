@@ -23,8 +23,8 @@
                             </div>
                         </div>
 
-                        <h3> Cornea Services </h3>
-                        <p class="fontresize">The cornea is the eye's outermost layer. It is dome-shaped surface front part of the eye that covers the iris, pupil, and anterior chamber.</p>
+                        <h3> Why vision check up is importent</h3>
+                        <p class="fontresize">Periodic eye and vision examinations are an importent part of preventive health care.<br>Many eye and visons problems have no bvious signs or symptoms. As a result,individuals are often unaware that problems exist.Early diagnosis and treatment of eye and vision problems are importent for maintaining good vision and eye health,and when possible,preventing vision loss.</p>
                     </a>
                     <a href="<?= base_url('Service-Details') ?>" class="read-more transition">Read More...</a>
                 </div>

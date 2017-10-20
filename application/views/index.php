@@ -133,11 +133,13 @@
                 </div>
                 <div class="col-md-12">
                     <div class="row marbot20">
+                        <div class="col-md-12">
                         <p class="fontresize">
                         <h1><span class="fw-normal">Optometry Clinic</span></h1>
                         You may be Surprised to learn that yearly eye exams are an easy and important way to protect your eyes and overall health. A routine eye examination can help detect signs of serious health conditions, such as diabetes, high blood pressure , high cholesterol, autoimmune disorders, and even some cancers/tumors.<br>
                         Periodic eye and vision examinations are an important part of preventive health care. Many eye and vision problems have no obvious signs or symptoms. As a result, individuals are often unaware that problems exist. Early diagnosis and treatment of eye and vision problems are important for maintaining good vision and eye health, and when possible preventing vision loss.
                         </p>
+                        </div>
                     </div>
                 </div>
             </div>
