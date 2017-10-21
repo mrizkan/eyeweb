@@ -26,21 +26,21 @@
                         <h3> Why vision check up is importent</h3>
                         <p class="fontresize">Periodic eye and vision examinations are an importent part of preventive health care.<br>Many eye and visons problems have no bvious signs or symptoms. As a result,individuals are often unaware that problems exist.Early diagnosis and treatment of eye and vision problems are importent for maintaining good vision and eye health,and when possible,preventing vision loss.</p>
                     </a>
-                    <a href="<?= base_url('Service-Details') ?>" class="read-more transition">Read More...</a>
+                    <a href="<?= base_url('Vision-Check') ?>" class="read-more transition">Read More...</a>
                 </div>
 
                 <div class="col-md-4 marbot40 fadeInLeft animated text-center" data-id='2'>
                     <a href="" class="cta-content">
                         <div class="pentagon marbot10">
                             <div class="mask mask-img transition center-block">
-                                <img src="<?= base_url('media/images/') ?>service06.jpg" alt=" " class="img-responsive marbot20">
+                                <img src="<?= base_url('media/images/') ?>service02.jpg" alt=" " class="img-responsive marbot20">
                             </div>
                         </div>
 
-                        <h3> Glaucoma Services </h3>
-                        <p class="fontresize">Glaucoma is a group of eye diseases which result in damage to the optic nerve and vision loss. A major risk factor is increased pressure in the eye.</p>
+                        <h3> We have equipments for solutions </h3>
+                        <p class="fontresize"> Auto refrectometer, Phoropter, Slit lamp, Opthalmoscope, Retinoscope, Lensoeter (Manual&Digitel), Digitel PD meter & etc.</p>
                     </a>
-                    <a href="<?= base_url('Service-Details') ?>" class="read-more transition">Read More...</a>
+                    <a href="<?= base_url('Solutions') ?>" class="read-more transition">Read More...</a>
                 </div>
 
                 <div class="col-md-4 marbot40 fadeInLeft animated text-center" data-id='3'>
@@ -51,10 +51,11 @@
                             </div>
                         </div>
 
-                        <h3> Retina Services </h3>
-                        <p class="fontresize">The retina is the inner coat of the eye which is a light-sensitive layer of tissue. The optics of the eye create an image of the visual world on the retina.</p>
+                        <h3> All kind of lenses </h3>
+                        <p class="fontresize">A lens is a transmissive optical device that focuses or disperses a light beam by means of
+                            refrection.</p>
                     </a>
-                    <a href="<?= base_url('Service-Details') ?>" class="read-more transition">Read More...</a>
+                    <a href="<?= base_url('Lenses') ?>" class="read-more transition">Read More...</a>
                 </div>
             </div>
 

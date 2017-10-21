@@ -196,9 +196,19 @@ class Home extends Front_Controller
         $this->view('appoinment');
     }
 
-    public function service_details()
+    public function vision_check()
     {
-        $this->view('service-details');
+        $this->view('vision-check');
+    }
+
+    public function solutions()
+    {
+        $this->view('We-have-equipments-for-solutions');
+    }
+
+    public function lenses()
+    {
+        $this->view('lence');
     }
 
     public function service()

@@ -1284,7 +1284,9 @@ h3, h4 {
     }
 
     .copyright, .footer-strip-menu {
-        text-align: center
+        text-align: center;
+        font-size: 17px;
+
     }
 }
 
@@ -1966,6 +1968,10 @@ section:nth-child(odd).white-bg .pentagon .mask:before {
 
 .bg-color-img-99 {
     background: url(../images/service001.jpg) no-repeat
+}
+
+.bg-color-img-98 {
+    background: url(../images/service002.jpg) no-repeat
 }
 
 .bg-color-img-02 {
@@ -4466,6 +4472,7 @@ label.error, label.valid {
 .bg-w{
     background: #fff;
 }
+
 /*.laser-eye-surgery{
     min-height: 390px;
 }*/
