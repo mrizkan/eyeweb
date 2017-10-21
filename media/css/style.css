@@ -1221,8 +1221,8 @@ footer .list-type1 li {
 
 .top-strip {
     background: fixed rgba(255, 255, 255, 1);
-    padding: 30px 0;
-    font-size: 20px
+    padding: 22px 0px;
+    font-size: 19px;
 }
 
 .footer-call i:before {
@@ -1972,6 +1972,42 @@ section:nth-child(odd).white-bg .pentagon .mask:before {
 
 .bg-color-img-98 {
     background: url(../images/service002.jpg) no-repeat
+}
+
+.bg-color-img-97 {
+    background: url(../images/service003.jpg) no-repeat
+}
+
+.bg-color-img-966 {
+     background: url(../images/service0033.jpg) no-repeat
+ }
+
+.bg-color-img-555 {
+    background: url(../images/service004.jpg) no-repeat
+}
+
+.bg-color-img-556 {
+    background: url(../images/service0044.jpg) no-repeat
+}
+
+.bg-color-img-557 {
+    background: url(../images/service00444.jpg) no-repeat
+}
+
+.bg-color-img-558 {
+    background: url(../images/service00444.jpg) no-repeat
+}
+
+.bg-color-img-559 {
+    background: url(../images/service004444.jpg) no-repeat
+}
+
+.bg-color-img-560 {
+    background: url(../images/service004444a.jpg) no-repeat
+}
+
+.bg-color-img-561 {
+    background: url(../images/service004444b.jpg) no-repeat
 }
 
 .bg-color-img-02 {

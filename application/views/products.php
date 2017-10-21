@@ -40,10 +40,7 @@
 
                         <div class="before-after">
                             <div><img src="<?= UP . $b_data->Image ?>" alt=" "/></div>
-                            <div class="view-gallery-wrapper">
-                                <a href="<?= UP . $b_data->Image ?>" data-toggle="lightbox" class="view-gallery trans-delay1"><i class="fa flaticon-symbols-1"></i></a>
-                                <a href="#" class="view-gallery trans-delay2"></a>
-                            </div>
+
                         </div>
                         <figcaption>
                             <h3> <a href="<?= base_url('Product/detail') . '/' . $b_data->ProductId ?>"><?= $b_data->ProductTitle ?></a></h3>

@@ -211,6 +211,11 @@ class Home extends Front_Controller
         $this->view('lence');
     }
 
+    public function contact_lenses()
+    {
+        $this->view('contact-lense');
+    }
+
     public function service()
     {
         $this->view('service');

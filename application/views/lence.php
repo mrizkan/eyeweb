@@ -1,34 +1,128 @@
 <?php $this->view('inc/header.php'); ?>
 
-<!-- Content
+
+<!-- Services Section
+================================================== -->
+<section class="top-bottom-spacing grey-bg">
+    <div class="container">
+        <h1 class="text-center">
+            <span class="fw-normal"></span>All kind of lenses
+        </h1>
+        <div class="row marbot20">
+            <!-- Section 1 -->
+            <div class="col-md-12">
+                <p class="fontresize">
+                    A lens is a transmissive optical device that focuses or disperses a light beam by means of
+                    refrection. A simple lens consists of a single piece of transparent meterial, while a compound
+                    lens consists of several simle lenses, usually arrange along a common axis.Lenses are made from
+                    materials such as glass or plastic, and are ground and polish or moulded to a desired shape.
+                    A lens can focus light to form an image, unlike a prism, which refrects light without focusing.
+                    Devices that similary focus or disperse waves and radiation other than visible light are also
+                    called lenses, such as microwavelenses,electron lenses,acoustic lenses, or explosive lenses.<br>
+                    We have generally the following lenses in our optical center. The lenses are usually
+                    prescribed by the Optomatrist.   There could be more but there are important..
+
+                </p>
+            </div>
+            <!-- // Section 1 -->
+
+        </div>
+    </div>
+</section>
+
+<!-- // Services Section
 ================================================== -->
 
-<section class="top-bottom-spacing blog grey-bg">
-    <div class="container">
-        <div class="row marbot10 animatedParent animateOnce">
 
-            <div class="col-md-12 fadeInLeft animated">
-                <!-- Content -->
-                <div class="clearfix">
-                    <img src=""<?= base_url('media/images/') ?>lence1.jpg""  alt=" " class="img-responsive">
-                    <div class="panel panel-body marbot30">
-                        <h3>All kind of lenses</h3>
+<!--  Services Content Section
+================================================== -->
+<section>
+    <div class="container-fluid sec-small">
+        <div class="row animatedParent animateOnce">
+            <div class="col-md-6 bg-color-img-97 fadeInUp animated">
+                <div class="clearfix"></div>
+            </div>
 
+            <div class="col-md-6 top-bottom-spacing fadeInDown animated">
+                <div class="col-md-8 col-md-push-1">
+                    <h3> Convex lenses </h3>
 
-
-                        <p class="fontresize marbot30">Maecenas suscipit ante a tincidunt commodo. Morbi sodales, quam in efficitur sollicitudin, dui nisi viverra quam, non pellentesque felis dolor non risus. Pellentesque sit amet pulvinar dolor, eget adipiscing dolor. Donec cursus at magna vel consequat. Vestibulum ultrices, ante nec facilisis facilisis, erat velit facilisis eros, vulputate placerat sapien sem eget velit.</p>
-
-
-
-                        <p class="fontresize marbot30">Donec cursus at magna vel consequat. Vestibulum ultrices, ante nec facilisis facilisis, erat velit facilisis eros, vulputate placerat sapien sem eget velit. Aliquam erat volutpat. Cras feugiat semper leo non mollis. Sed ac dapibus felis. Donec vel pretium quam. </p>
-
-                        <p class="fontresize marbot30">Vestibulum ultrices, ante nec facilisis facilisis, erat velit facilisis eros, vulputate placerat sapien sem eget velit. Praesent imperdiet nisl sem, ut ultricies turpis pretium rutrum. </p>
+                    <p class="fontresize marbot30">
+                        Peaple suffering from farsightrdness or hypermetropia cannot see nearby objects clearly
+                        rather, they cannot focus them clearly on ratina. So these converging lenses are prescribed.
+                        Depending on requirment, plano convex or double convex be prescribed.
 
 
-                    </div>
+                    </p>
+
 
                 </div>
+            </div>
 
-                <!-- Content -->
+
+        </div>
+        <div class="row animatedParent animateOnce">
+            <div class="col-md-6 bg-color-img-966 fadeInUp animated">
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="col-md-6 top-bottom-spacing fadeInDown animated">
+                <div class="col-md-8 col-md-push-1">
+                    <h3> Concave lenses </h3>
+
+                    <p class="fontresize marbot30">
+                        Peaple suffering from shortsightedness or myopia focus objects from distence,
+                        at a location in front of ratina. So they are prescribed diverging lnses. Depending on requirment,
+                        plano concave or double concave may be prescribed.
+
+
+                    </p>
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row animatedParent animateOnce">
+
+
+            <div class="col-md-12 top-bottom-spacing fadeInDown animated">
+                <div class="col-md-8 col-md-push-1">
+                    <h3> Cylindrical lenses </h3>
+
+                    <p class="fontresize marbot30">
+                        Peaple suffering from astigmatism have a trouble that they cannot focus correctly
+                        the object in all directions. Objects in vertical direction and horizontal direction are not both
+                        focused correctly at the same time. Depending on requirment plano cylindrical or total
+                        cylindrical lenses may be prescribed.
+                        It also possible that peaple are given bifocal lenses with two lensescombined in one spectale.
+
+
+                    </p>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+<!-- // Services Content Section
+================================================== -->
+
+
+
 
 <?php $this->view('inc/footer.php'); ?>
+
+
+
+
+
+
+
+

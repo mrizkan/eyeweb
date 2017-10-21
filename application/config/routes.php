@@ -61,6 +61,7 @@ $route['Services'] = 'Home/services';
 $route['Vision-Check'] = 'Home/vision_check';
 $route['Solutions'] = 'Home/solutions';
 $route['Lenses'] = 'Home/lenses';
+$route['Contact-Lenses'] = 'Home/contact_lenses';
 
 //$route['Packages'] = 'Home/packages';
 //$route['Products'] = 'Products/index';
