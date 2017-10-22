@@ -123,13 +123,15 @@
                                     <select name="consulting" class="select reason-option" required="required">
                                         <option value=""> --- --- Select Below --- --- </option>
                                         <option value="I Would Like to Book a Consultation">I Would Like to Book a Consultation</option>
-                                        <option value="I Would Like a Call Back">I Would Like a Call Back</option>
-                                        <option value="I'm Interested in LASIK or LASEK">I'm Interested in LASIK or LASEK</option>
-                                        <option value="Implantable Contact Lenses">Implantable Contact Lenses</option>
-                                        <option value="Clear Lens Exchange">Clear Lens Exchange</option>
-                                        <option value="Cataract Treatment Information">Cataract Treatment Information</option>
-                                        <option value="Keratoconus Treatment Information">Keratoconus Treatment Information</option>
-                                        <option value="Intraocular Lens Exchange">Intraocular Lens Exchange</option>
+                                        <option value="I would like to Refrection(Vision checkup )">I would like to Refrection(Vision checkup )</option>
+                                        <option value="I want to replace my lenses ">I want to replace my lenses </option>
+                                        <option value="I would like to go for a new design frame ">I would like to go for a new design frame </option>
+                                        <option value="Cataract treatment information">Cataract treatment information</option>
+                                        <option value="Keratoconus  Treatment information">Keratoconus  Treatment information</option>
+                                        <option value="I would like to Bye a contact lens. ">I would like to Bye a contact lens. </option>
+                                        <option value="I want to make a full service for my spectacle">I want to make a full service for my spectacle</option>
+                                        <option value="I need some advice for surgical treatment ">I need some advice for surgical treatment </option>
+                                        <option value="Any other Diseases or Disorders information ">Any other Diseases or Disorders information </option>
                                     </select>
 
                                 </div>
