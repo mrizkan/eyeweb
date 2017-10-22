@@ -132,9 +132,11 @@
                                 <p class="fontresize marbot20 color-light"><em><span class="fw-500"> Doctor of Eye with Us Opticals </span></em>
                                 </p>
                                 <ul class="social-icons-simple social-bg-grey clearfix">
-                                    <li><a href="https://www.facebook.com/eyewithus/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.facebook.com/eyewithus/" target="_blank"><i
+                                                    class="fa fa-facebook"></i></a></li>
 
-                                    <li><a href="https://www.youtube.com/channel/UCg0ROKOFsQM1_dgXl8Wzl1Q" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCg0ROKOFsQM1_dgXl8Wzl1Q"
+                                           target="_blank"><i class="fa fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -143,10 +145,14 @@
                         <div class="col-md-6 marbot40">
                             <div class="story">
                                 <h2 class="marbot20">Our OPTICIAN & OPTOMATRY</h2>
-                                <p class="lead color-light marbot30">Rizwan M. M. M.<span class="marbot30"><br>Opticion/Opthametrist (Optht)<br>Reg No. CDO -14-17<br> Eye Care Institute<br>College of Optometry and Visual Science<br>Sri Lanka</span>
+                                <p class="lead color-light marbot30">Rizwan M. M. M.<span class="marbot30"><br>Opticion/Optoametrist (Optom)<br>Reg No. CDO -14-17<br> Eye Care Institute<br>College of Optometry and Visual Science<br>Sri Lanka</span>
                                 </p>
 
-                                <p class="fontresize marbot30">Rizwan M. M. M. is Optician and Opthametrist at Eye with Us Optical Center. He is bord certify by the Optomethry Association of Sri Lanka, He has been in the optical business since 2009. His years of Experience in the ooptical business allow him to provide our optical customers with the highest quality optical service and advice.</p>
+                                <p class="fontresize marbot30">Rizwan M. M. M. is Optician and Optometrist at Eye with
+                                    Us Optical Center. He is bord certify by the Optometry Association of Sri Lanka, He
+                                    has been in the optical business since 2009. His years of Experience in the optical
+                                    business allow him to provide our optical customers with the highest quality optical
+                                    service and advice.</p>
 
 
                                 <img src="<?= base_url('media/images/') ?>sign.png" alt=" ">
