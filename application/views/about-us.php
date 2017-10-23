@@ -145,7 +145,7 @@
                         <div class="col-md-6 marbot40">
                             <div class="story">
                                 <h2 class="marbot20">Our OPTICIAN & OPTOMATRY</h2>
-                                <p class="lead color-light marbot30">Rizwan M. M. M.<span class="marbot30"><br>Opticion/Optoametrist (Optom)<br>Reg No. CDO -14-17<br> Eye Care Institute<br>College of Optometry and Visual Science<br>Sri Lanka</span>
+                                <p class="lead color-light marbot30">Rizwan M. M. M.<span class="marbot30"><br>Opticion & Optometrist (Optom)<br>Reg No. CDO -14-17<br> Eye Care Institute<br>College of Optometry and Visual Science<br>Sri Lanka</span>
                                 </p>
 
                                 <p class="fontresize marbot30">Rizwan M. M. M. is Optician and Optometrist at Eye with
