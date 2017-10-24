@@ -4509,6 +4509,12 @@ label.error, label.valid {
     background: #fff;
 }
 
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /*.laser-eye-surgery{
     min-height: 390px;
 }*/

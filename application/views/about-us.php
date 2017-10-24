@@ -164,6 +164,80 @@
             </div>
         </div>
     </section>
+    <section class="top-bottom-spacing white-bg">
+        <div class="container">
+            <div class="row">
+                <div class="clearfix">
+                    <!-- Section 1 -->
+                    <div class="col-md-4 marbot10">
+
+                        <div class="marbot0 clearfix">
+                            <div class="row">
+                                <div class="col-md-12 marbot30">
+
+                                    <!-- Appointment -->
+                                    <div class="media media-base-align">
+
+                                        <div class="media-body">
+                                            <h3 class="contact-heading">My College</h3>
+
+                                        </div>
+                                    </div>
+                                    <!-- // Appointment -->
+
+
+                                    <!-- Location -->
+                                    <div class="media media-base-align">
+                                        <div class="media-left">
+                                            <i class="flaticon-technology-6 color-light location-icon"></i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h3 class="contact-heading">EYE CARE INSTITUTE</h3>
+                                            <p class="bold">
+                                                #235 ward place Colombo 07
+                                                 Sri Lanka.<br>
+
+                                            </p>
+                                            <p class="bold">
+                                                About : Institute for Eye Professionals.<br>
+                                                Mission : Complete Eye Care
+
+                                            </p>
+                                            <p class="fontresize">
+                                                <span class="bold">Phone:+94 112 682 277</span>
+
+                                            </p>
+                                            <ul class="social-icons-simple social-bg-grey clearfix">
+                                                <li><a href="https://www.facebook.com/EYECARESRILANKA/" target="_blank"><i
+                                                                class="fa fa-facebook"></i></a></li>
+                                            </ul>
+                                            <p class="fontresize marbot10">
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- // Location -->
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- // Section 1 -->
+
+
+                    <!-- Section 2 -->
+                    <div class="col-md-8">
+                        <img src="<?= base_url('media/images/') ?>class.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <!-- // Section 2 -->
+            </div>
+        </div>
+    </section>
 
     <!-- // Doctors Section
     ================================================== -->
