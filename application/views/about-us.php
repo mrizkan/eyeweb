@@ -180,6 +180,7 @@
 
                                         <div class="media-body">
                                             <h3 class="contact-heading">My College</h3>
+                                            <p class="lead color-light marbot30">No one better than this in<br> Sri Lanka.</p>
 
                                         </div>
                                     </div>
@@ -196,24 +197,19 @@
                                             <p class="bold">
                                                 #235 ward place Colombo 07
                                                  Sri Lanka.<br>
-
                                             </p>
                                             <p class="bold">
                                                 About : Institute for Eye Professionals.<br>
                                                 Mission : Complete Eye Care
-
                                             </p>
                                             <p class="fontresize">
                                                 <span class="bold">Phone:+94 112 682 277</span>
-
                                             </p>
                                             <ul class="social-icons-simple social-bg-grey clearfix">
                                                 <li><a href="https://www.facebook.com/EYECARESRILANKA/" target="_blank"><i
                                                                 class="fa fa-facebook"></i></a></li>
                                             </ul>
-                                            <p class="fontresize marbot10">
 
-                                            </p>
                                         </div>
                                     </div>
                                     <!-- // Location -->
@@ -235,9 +231,11 @@
                     </div>
                 </div>
                 <!-- // Section 2 -->
+                <div class="col-md-12"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.151236811505!2d79.8713373!3d6.915954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x614fbd9988cf7417!2sEye+Care+Institute!5e0!3m2!1sen!2slk!4v1508891791692" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div>
             </div>
         </div>
     </section>
+
 
     <!-- // Doctors Section
     ================================================== -->
