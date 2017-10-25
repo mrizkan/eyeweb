@@ -129,7 +129,7 @@
                             </div>
                             <div class="panel panel-body marbot0 text-center doctor-details">
                                 <h3 class="marbot0">Rizwan M. M. M.</h3>
-                                <p class="fontresize marbot20 color-light"><em><span class="fw-500"> Doctor of Eye with Us Opticals </span></em>
+                                <p class="fontresize marbot20 color-light"><em><span class="fw-500"> Director of Eye with Us Opticals </span></em>
                                 </p>
                                 <ul class="social-icons-simple social-bg-grey clearfix">
                                     <li><a href="https://www.facebook.com/eyewithus/" target="_blank"><i
@@ -203,7 +203,8 @@
                                                 Mission : Complete Eye Care
                                             </p>
                                             <p class="fontresize">
-                                                <span class="bold">Phone:+94 112 682 277</span>
+                                                <span class="bold">Phone:+94 112 682 277</span><br>
+                                                <span class="bold"><a href="http://eyecare.lk/" target="_blank">www.eyecare.lk</a> </span>
                                             </p>
                                             <ul class="social-icons-simple social-bg-grey clearfix">
                                                 <li><a href="https://www.facebook.com/EYECARESRILANKA/" target="_blank"><i

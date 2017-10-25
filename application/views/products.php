@@ -33,7 +33,7 @@
 
             <div class="col-md-12">
                             <?php foreach ($products as $b_data): ?>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                 <!-- Accurarrr Item 1 -->
                 <div class="element transition laser-eye-surgery" data-category="laser-eye-surgery" >
                     <figure>
