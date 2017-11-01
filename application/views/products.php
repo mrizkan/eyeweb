@@ -37,16 +37,16 @@
                 <!-- Accurarrr Item 1 -->
                 <div class="element transition laser-eye-surgery" data-category="laser-eye-surgery" >
                     <figure>
-
+                        <a href="<?= base_url('Product/detail') . '/' . $b_data->ProductId ?>">
                         <div class="before-after">
                             <div><img src="<?= UP . $b_data->Image ?>" alt=" "/></div>
 
                         </div>
                         <figcaption>
-                            <h3> <a href="<?= base_url('Product/detail') . '/' . $b_data->ProductId ?>"><?= $b_data->ProductTitle ?></a></h3>
+                            <h3> <?= $b_data->ProductTitle ?></h3>
 
                         </figcaption>
-
+                        </a>
                     </figure>
                 </div>
                 <!-- // Accura Item 1 -->

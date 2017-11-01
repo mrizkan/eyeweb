@@ -136,7 +136,7 @@
 
                             </li>
                             <li class="dropdown">
-                                <a href="<?= base_url('Products') ?>" class="dropdown-toggle">Products </a>
+                                <a href="<?= base_url('Products') ?>" class="dropdown-toggle">Brands </a>
                                 <ul>
 
                                         <ul class="dropdown-menu" role="menu">
